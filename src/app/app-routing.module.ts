@@ -28,17 +28,18 @@ import { TestMultiimageComponent } from './test-multiimage/test-multiimage.compo
 const routes: Routes = [
 
   
-  { path: 'mult', component: TestMultiimageComponent },  
 
 
 
-
-  { path: 'auth/login', component:LoginComponent },
-  { path: 'auth/registre', component:SignupComponent },
-  { path: 'auth/Forget-Password', component: ForgotPassComponent }, 
+ 
+  { path: '', component: HomeComponent },  
+  
+  { path: 'mult', component: TestMultiimageComponent },
+  { path: 'auth/login', component: LoginComponent },
+  { path: 'auth/registre', component: SignupComponent },
+  { path: 'auth/Forget-Password', component: ForgotPassComponent },
   { path: 'auth/verify-Password', component: VerifyPasswordComponent }, 
 
-  { path: '', component: HomeComponent },  
 
  
   { path: 'Single-Page/Lost/:id', component: LostComponent },
