@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+
+        p,
+        li,
+        ul,
+        pre,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        figure,
+        blockquote,
+        figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button,
+        select {
+            text-transform: none;
+        }
+
+       
+
+        button::-moz-focus-inner,
+        [type="button"]::-moz-focus-inner,
+        [type="reset"]::-moz-focus-inner,
+        [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+
+        button:-moz-focus,
+        [type="button"]:-moz-focus,
+        [type="reset"]:-moz-focus,
+        [type="submit"]:-moz-focus {
+            outline: 1px dotted ButtonText;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-gray-white);
+
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div>
+        
+
+        <div class="found-pets-container">
+            <div class="found-pets-found-pets">
+                <img src="./assets/public/playground_assets/rectangle34759-1eda-400h.png" alt="Rectangle34759"
+                    class="found-pets-rectangle3" />
+                <div class="found-pets-frame256">
+                    <div class="found-pets-frame245">
+                        <div class="found-pets-frame240">
+                            <div class="found-pets-frame232">
+
+
+                            
+                                    <img *ngIf="imageUrl" [src]="imageUrl" alt="Image"  class="found-pets-ellipse1">
+                                    <img *ngIf="!imageUrl"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nRbIObRQkMacJ9ORydgR3yfqFffAMVlzRQHG6JY&s" alt="Image"
+                                         class="found-pets-ellipse1">
+
+
+                                <div class="found-pets-frame231">
+                                    <span class="found-pets-text MontserratSemibold24px">
+                                        <span>{{this.eeee}}</span>
+                                    </span>
+                                    <span class="found-pets-text002 MontserratRegular16px">
+                                    <span>{{this.eee}}</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="found-pets-frame71">
+                            <span class="found-pets-text004 MontserratSemibold16px">
+                                <span>I’ve Lost a Pet</span>
+                            </span>
+                            <img src="./assets/public/playground_assets/line14759-1hhq.svg" alt="Line14759" class="found-pets-line1" />
+                            <span class="found-pets-text006 MontserratSemibold16px">
+                                <span>I’ve Found a Pet</span>
+                            </span>
+
+                            <a href="Account/favorite-Pet">
+                                <div class="lost-pets-text071 MontserratSemibold16px">
+                                    <div class="found-pets-frame30">
+                                        <img src="./assets/public/playground_assets/hearti475-h2n.svg" alt="heartI475" class="found-pets-heart" />
+                            
+                                        Favourites
+                            
+                                    </div>
+                            
+                                </div>
+                            
+                            </a>
+
+
+                        </div>
+                    </div>
+                 </div>
+                <button class="found-pets-button">
+                    <div class="found-pets-stylelayer">
+                        <img src="./assets/public/playground_assets/uploadi475-iz9.svg" alt="UploadI475" class="found-pets-upload" />
+                        <span class="found-pets-text008 MontserratMedium14px">
+                            <span>Upload new cover</span>
+                        </span>
+                    </div>
+                </button>
+                <div class="found-pets-header-default">
+                    <div class="found-pets-frame22">
+                        <div class="found-pets-frame20">
+                            <img src="./assets/public/playground_assets/explorei475-teo.svg" alt="ExploreI475"
+                                class="found-pets-explore" />
+                            <span class="found-pets-text010 MontserratSemibold14px">
+                                <span><a href="/listing/Lost-Pet">I’ve Lost Pets</a></span>
+                            </span>
+                        </div>
+
+
+
+
+                        <div class="found-pets-frame21">
+                            <img src="./assets/public/playground_assets/materialsymbolssearchroundedi475-ulrb.svg"
+                                alt="materialsymbolssearchroundedI475"
+                                class="found-pets-materialsymbolssearchrounded" />
+                            <span class="found-pets-text012 MontserratSemibold14px">
+                                <span><a href="/listing/found-Pet">I’ve Found Pets</a></span>
+                            </span>
+                        </div>
+
+
+                        <div>
+                        
+                            <span class="found-pets-text012 MontserratSemibold14px">
+                                <span><a href="/Account/lost-Pet">Add lost Pets</a></span>
+                            </span>
+                        </div>
+                    </div>
+                    <a href=""> 
+                    <div class="found-pets-logo">
+                        <div class="found-pets-group">
+                            <img src="./assets/public/playground_assets/temporarylogoi475-cdjt-200h.png" alt="TemporaryLogoI475"
+                                class="found-pets-temporary-logo" />
+                        </div>
+                        <img src="./assets/public/playground_assets/li475-k8uc.svg" alt="LI475" class="found-pets-l" />
+                        <img src="./assets/public/playground_assets/gi475-usgf.svg" alt="GI475" class="found-pets-g" />
+                        <img src="./assets/public/playground_assets/oi475-hzng.svg" alt="OI475" class="found-pets-o" />
+                    </div>
+                </a>
+                    <div class="found-pets-frame24">
+                        <div class="found-pets-frame241">
+<!-- <a href="Account/favorite-Pet" >
+                            <div class="found-pets-frame28">
+                                <div class="found-pets-frame30">
+                                    <img src="./assets/public/playground_assets/hearti475-h2n.svg" alt="heartI475"
+                                        class="found-pets-heart" />
+                                    <span class="found-pets-text014 MontserratSemibold14px">
+                                        <span>Favourites</span>
+                                    </span>
+                                </div>
+                                <span class="found-pets-text016 MontserratSemibold14px">
+                                    |
+                                </span>
+                          </div>
+
+</a> -->
+
+                       <a href="Account">
+                            <div class="found-pets-frame29">
+
+
+                                
+<img *ngIf="imageUrl" [src]="imageUrl" alt="Image"  class="found-pets-ellipse11">
+<img *ngIf="!imageUrl"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nRbIObRQkMacJ9ORydgR3yfqFffAMVlzRQHG6JY&s" alt="Image"
+     class="found-pets-ellipse11">
+
+                                <span class="found-pets-text017 MontserratSemibold14px">
+                                    <span>{{this.eeee}}</span>
+                                </span>
+                                
+                                <img src="./assets/public/playground_assets/arrowdowni475-615o.svg" alt="ArrowDownI475"
+                                     class="found-pets-ellipse4"/>
+                            </div>
+
+</a>
+
+
+                        </div>
+                    </div>
+                    <img src="./assets/public/playground_assets/rectangle5i475-l708-200h.png" alt="Rectangle5I475"
+                        class="found-pets-rectangle5" />
+                </div>
+                <div class="found-pets-footer">
+                    <div class="found-pets-frame2608782">
+                        <div class="found-pets-frame2608747">
+                            <div class="found-pets-frame2608743">
+                                <span class="found-pets-text019 TradeGothicBoldH1">
+                                    <span>Subscribe Newsletter</span>
+                                </span>
+                                <div class="found-pets-frame2608755">
+                                    <div class="found-pets-frame26087431">
+                                        <span class="found-pets-text021 MontserratRegularH5">
+                                            <span>Join Our Community</span>
+                                        </span>
+                                        <span class="found-pets-text023 MontserratRegularBody">
+                                            <span>
+                                                Be the First to Know About New Adoptable Pets and
+                                                Receive Our Monthly Newsletter. Subscribe Now!
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="found-pets-frame2608741">
+                                        <div class="found-pets-textfield">
+                                            <div class="found-pets-textfield01">
+                                                <div class="found-pets-statelayer">
+                                                    <div class="found-pets-content">
+                                                        <div class="found-pets-labeltext">
+                                                            <span class="found-pets-text025 MontserratRegularBody">
+                                                                
+                                                                <input type="email" placeholder="Your email address">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="found-pets-button1">
+                                            <div class="found-pets-stylelayer1">
+                                                <span class="found-pets-text027 MontserratMedium14px">
+                                                    <span>Subscribe</span>
+                                                </span>
+                                            </div>
+                                        </button>
+                                        <button class="found-pets-button2"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/public/playground_assets/emojionev1openmailboxwithloweredflagi475-2fn6.svg"
+                                alt="emojionev1openmailboxwithloweredflagI475"
+                                class="found-pets-emojionev1openmailboxwithloweredflag" />
+                        </div>
+                        <div class="found-pets-frame2608748">
+                            <div class="found-pets-frame2608750">
+                                <div class="found-pets-logo1">
+                                    <div class="found-pets-group1">
+                                        <img src="./assets/public/playground_assets/temporarylogoi475-o03l-200h.png"
+                                            alt="TemporaryLogoI475" class="found-pets-temporary-logo1" />
+                                    </div>
+                                    <img src="./assets/public/playground_assets/li475-546.svg" alt="LI475" class="found-pets-l1" />
+                                    <img src="./assets/public/playground_assets/gi475-4ge.svg" alt="GI475" class="found-pets-g1" />
+                                    <img src="./assets/public/playground_assets/oi475-xn1.svg" alt="OI475" class="found-pets-o1" />
+                                </div>
+                                <div class="found-pets-frame2608749">
+                                    <div class="found-pets-akariconsfacebookfill">
+                                        <div class="found-pets-group2">
+                                            <div class="found-pets-group3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="found-pets-akariconsyoutubefill">
+                                        <div class="found-pets-group4">
+                                            <div class="found-pets-group5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="found-pets-frame26087481">
+                                <div class="found-pets-frame2608742">
+                                    <span class="found-pets-text029 TradeGothicBoldH6">
+                                        <span>Our Destinations</span>
+                                    </span>
+                                    <div class="found-pets-frame2608776">
+                                        <span class="found-pets-text031 MontserratRegularSmallText">
+                                            <span>Canada</span>
+                                        </span>
+                                        <span class="found-pets-text033 MontserratRegularSmallText">
+                                            <span>Alaksa</span>
+                                        </span>
+                                        <span class="found-pets-text035 MontserratRegularSmallText">
+                                            <span>France</span>
+                                        </span>
+                                        <span class="found-pets-text037 MontserratMedium14px">
+                                            <span>Iceland</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="found-pets-frame2608744">
+                                    <span class="found-pets-text039 TradeGothicBoldH6">
+                                        <span>Our Activities</span>
+                                    </span>
+                                    <div class="found-pets-frame2608777">
+                                        <span class="found-pets-text041 MontserratRegularSmallText">
+                                            <span>Northern Lights</span>
+                                        </span>
+                                        <span class="found-pets-text043 MontserratRegularSmallText">
+                                            <span>Cruising &amp; sailing</span>
+                                        </span>
+                                        <span class="found-pets-text045 MontserratRegularSmallText">
+                                            <span>Multi-activities</span>
+                                        </span>
+                                        <span class="found-pets-text047 MontserratRegularSmallText">
+                                            <span>Kayaing</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="found-pets-frame26087471">
+                                    <span class="found-pets-text049 TradeGothicBoldH6">
+                                        <span>Travel Blogs</span>
+                                    </span>
+                                    <div class="found-pets-frame2608778">
+                                        <span class="found-pets-text051 MontserratRegularSmallText">
+                                            <span>Bali Travel Guide</span>
+                                        </span>
+                                        <span class="found-pets-text053 MontserratRegularSmallText">
+                                            <span>Sri Lanks Travel Guide</span>
+                                        </span>
+                                        <span class="found-pets-text055 MontserratRegularSmallText">
+                                            <span>Peru Travel Guide</span>
+                                        </span>
+                                        <span class="found-pets-text057 MontserratRegularSmallText">
+                                            <span>Bali Travel Guide</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="found-pets-frame2608745">
+                                    <span class="found-pets-text059 TradeGothicBoldH6">
+                                        <span>About Us</span>
+                                    </span>
+                                    <div class="found-pets-frame2608779">
+                                        <span class="found-pets-text061 MontserratRegularSmallText">
+                                            <span>Our Story</span>
+                                        </span>
+                                        <span class="found-pets-text063 MontserratRegularSmallText">
+                                            <span>Work with us</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="found-pets-frame2608746">
+                                    <span class="found-pets-text065 TradeGothicBoldH6">
+                                        <span>Contact Us</span>
+                                    </span>
+                                    <div class="found-pets-frame2608780">
+                                        <span class="found-pets-text067 MontserratRegularSmallText">
+                                            <span>Our Story</span>
+                                        </span>
+                                        <span class="found-pets-text069 MontserratRegularSmallText">
+                                            <span>Work with us</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="found-pets-copyrightfootnote">
+                        <span class="found-pets-text071 MontserratRegularSmallerText">
+                            <span>
+                                Copyright © 2023 All Rights Reserved. In association with
+                                IamThehackerman.com
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="found-pets-container1">
+                    <span class="found-pets-text073 TradeGothicBold32px">
+                        <span>Please Fill Out Form Below</span>
+                    </span>
+                    <div class="found-pets-frame244">
+<form   name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate
+    enctype="multipart/form-data">
+
+                        <div class="found-pets-frame38">
+                            <div class="found-pets-heading">
+                                <div class="found-pets-frame246">
+                                    <span class="found-pets-text075 MontserratRegularH5">
+                                        <span>Found Pet Information</span>
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div class="found-pets-form-input">
+                                <div class="found-pets-frame2461">
+                                    <div class="found-pets-textfield02">
+                                        <div class="found-pets-textfield03">
+                                            <div class="found-pets-statelayer01">
+                                                <div class="found-pets-content01">
+                                                    <div class="found-pets-placeholdertext">
+                                                        <span class="found-pets-text077 Regular16px">
+                                                            <span>Select Date</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="found-pets-labeltext01">
+                                                        <span class="found-pets-text079 MontserratRegular14px">
+                                                            <input type="datetime-local" placeholder="Date Found" class="account-edit-profile-inputtext" autocomplete="datefound"
+                                                                name="datefound" [(ngModel)]="form.datefound" required minlength="3" maxlength="20" #datefound="ngModel" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon">
+                                                    <img src="./assets/public/playground_assets/calendari503-m77k.svg" alt="calendarI503"
+                                                        class="found-pets-calendar" />
+                                                </div>
+                                            </div>   
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="datefound.errors && f.submitted">
+                                            <div *ngIf="datefound.errors?.['required']">Date is required</div>
+                                        
+                                        </div>
+                                    </div>
+
+
+                                    <div class="found-pets-textfield04">
+                                        <div class="found-pets-textfield05">
+                                            <div class="found-pets-statelayer02">
+                                                <div class="found-pets-content02">
+                                                  
+                                                        <span  class="found-pets-inputtext">Location Found</span>
+                                                    <div class="found-pets-labeltext02">
+                                                        <span class="found-pets-text081 MontserratRegular14px">
+                                                          
+                                                            <input type="text" placeholder="Last Known Location" class="account-edit-profile-inputtext" autocomplete="addrs"
+                                                                name="addrs" [(ngModel)]="form.addrs" required minlength="3" maxlength="20" #addrs="ngModel" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon01">
+                                                    <img src="./assets/public/playground_assets/locationi503-kjgm.svg" alt="LocationI503"
+                                                        class="found-pets-location" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="addrs.errors && f.submitted">
+                                            <div *ngIf="addrs.errors?.['required']"> Address is required</div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="found-pets-heading1">
+                                <div class="found-pets-frame2462">
+                                    <span class="found-pets-text083 MontserratRegularH5">
+                                        <span>Pet Information</span>
+                                    </span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="found-pets-form-input1">
+                                <div class="found-pets-frame2463">
+                                    <div class="found-pets-textfield06">
+                                        <div class="found-pets-textfield07">
+                                            <div class="found-pets-statelayer03">
+                                                <div class="found-pets-content03">  
+                                                      <span class="found-pets-text087 Regular16px">Choose One</span>
+                                                    <div class="found-pets-labeltext03">
+                                                        <span class="found-pets-text085 MontserratRegular14px">
+                                                            <input type="text" placeholder="Species" class="account-edit-profile-inputtext" autocomplete="species" name="species"
+                                                                [(ngModel)]="form.species" required minlength="3" maxlength="20" #species="ngModel" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon02">
+                                                    <img src="./assets/public/playground_assets/chevrondowni503-umc.svg"
+                                                        alt="chevrondownI503" class="found-pets-chevrondown" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="species.errors && f.submitted">
+                                            <div *ngIf="species.errors?.['required']">species is required</div>
+                                            <div *ngIf="species.errors?.['minlength']">
+                                                species must be at least 3 characters
+                                            </div>
+                                            <div *ngIf="species.errors?.['maxlength']">
+                                                species must be at most 20 characters
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                              
+                            </div>
+
+
+
+
+                            <div class="found-pets-form-input2">
+
+                                <div class="found-pets-frame2464">
+
+                                    <div class="found-pets-textfield08">
+                                        <div class="found-pets-textfield09">
+                                            <div class="found-pets-statelayer04">
+                                                <div class="found-pets-content04">
+                                                    <div class="found-pets-placeholdertext1">
+                                                        <span class="found-pets-text087 Regular16px">
+                                                            <span>Pet’s Breed</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="found-pets-labeltext04">
+                                                        <span class="found-pets-text089 MontserratRegular14px">
+                                                            <input type="text" placeholder="Breed" class="account-edit-profile-inputtext" autocomplete="bred" name="bred"
+                                                                [(ngModel)]="form.bred" required minlength="3" maxlength="20" #bred="ngModel" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon03">
+                                                    <img src="./assets/public/playground_assets/microphonei503-1a6.svg"
+                                                        alt="microphoneI503" class="found-pets-microphone" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="bred.errors && f.submitted">
+                                            <div *ngIf="bred.errors?.['required']">bred is required</div>
+                                            <div *ngIf="bred.errors?.['minlength']">
+                                                bred must be at least 3 characters
+                                            </div>
+                                            <div *ngIf="bred.errors?.['maxlength']">
+                                                bred must be at most 20 characters
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <div class="found-pets-textfield10">
+                                        <div class="found-pets-textfield11">
+                                            <div class="found-pets-statelayer05">
+                                                <div class="found-pets-content05">
+                                                    <span class="found-pets-text087 Regular16px">Choose One</span>
+                                                    <div class="found-pets-labeltext05">
+                                                        <span class="found-pets-text091 MontserratRegular14px">
+                                                        <input type="text" placeholder="Colour" class="account-edit-profile-inputtext" autocomplete="couleur" name="couleur"
+                                                            [(ngModel)]="form.couleur" required minlength="3" maxlength="20" #couleur="ngModel" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon04">
+                                                    <img src="./assets/public/playground_assets/chevrondowni503-bq34.svg"
+                                                        alt="chevrondownI503" class="found-pets-chevrondown1" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="couleur.errors && f.submitted">
+                                            <div *ngIf="couleur.errors?.['required']">couleur is required</div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="found-pets-form-input3">
+                                <div class="found-pets-frame2465">
+
+                                    <div class="found-pets-textfield12">
+                                        <div class="found-pets-textfield13">
+                                            <div class="found-pets-statelayer06">
+                                                <div class="found-pets-content06">
+                                                    <div class="found-pets-placeholdertext2">
+                                                        <span class="found-pets-text093 Regular16px">
+                                                            <span>Pet’s Size</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="found-pets-labeltext06">
+                                                        <span class="found-pets-text095 MontserratRegular14px">
+                                                        <input type="text" placeholder="Size" class="account-edit-profile-inputtext" autocomplete="size" name="size"
+                                                            [(ngModel)]="form.size" required minlength="3" maxlength="20" #size="ngModel" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon05">
+                                                    <img src="./assets/public/playground_assets/microphonei503-gdp.svg"
+                                                        alt="microphoneI503" class="found-pets-microphone1" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="size.errors && f.submitted">
+                                            <div *ngIf="size.errors?.['required']">size is required</div>
+                                        
+                                        </div>
+                                    </div>
+
+                                    <div class="found-pets-textfield14">
+                                        <div class="found-pets-textfield15">
+                                            <div class="found-pets-statelayer07">
+                                                <div class="found-pets-content07">
+                                                    <span class="found-pets-text087 Regular16px">Choose One</span>
+                                                    <div class="found-pets-labeltext07">
+                                                        <span class="found-pets-text097 MontserratRegular14px">
+                                                        <input type="text" placeholder="Gender" class="account-edit-profile-inputtext" autocomplete="gender" name="gender"
+                                                            [(ngModel)]="form.gender" required minlength="3" maxlength="20" #gender="ngModel" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon06">
+                                                    <img src="./assets/public/playground_assets/chevrondowni503-q5to.svg"
+                                                        alt="chevrondownI503" class="found-pets-chevrondown2" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="gender.errors && f.submitted">
+                                            <div *ngIf="gender.errors?.['required']">gender is required</div>
+                                        
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="found-pets-form-input4">
+
+                                <div class="found-pets-frame2466">
+                                    <div class="found-pets-textfield16">
+
+                                        <div class="found-pets-textfield17">
+                                            <div class="found-pets-statelayer08">
+                                                <div class="found-pets-content08">
+                                                    <div class="found-pets-placeholdertext3">
+                                                        <span class="found-pets-text099 Regular16px">
+                                                            <span>Pet’s Age</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="found-pets-labeltext08">
+                                                        <span class="found-pets-text101 MontserratRegular14px">
+                                                            <input min="1"   type="number" placeholder="Age" class="account-edit-profile-inputtext" autocomplete="age" name="age"
+                                                                [(ngModel)]="form.age" required minlength="3" maxlength="20" #age="ngModel" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon07">
+                                                    <img src="./assets/public/playground_assets/microphonei503-dlma.svg"
+                                                        alt="microphoneI503" class="found-pets-microphone2" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                                <div style="color: red;" class="alert-danger" *ngIf="age.errors && f.submitted">
+                                                    <div *ngIf="age.errors?.['required']">age is required</div>
+
+                                                </div>
+                                    </div>
+
+
+                                    <div class="found-pets-textfield18">
+                                        <div class="found-pets-textfield19">
+                                            <div class="found-pets-statelayer09">
+                                                <div class="found-pets-content09">
+                                                <span class="found-pets-text087 Regular16px">Choose One</span>
+                                                    <div class="found-pets-labeltext09">
+                                                        <span class="found-pets-text103 MontserratRegular14px">
+                                                        <input type="text" placeholder="Distinct Markings" class="account-edit-profile-inputtext" autocomplete="distmarkings"
+                                                            name="distmarkings" [(ngModel)]="form.distmarkings" required minlength="3" maxlength="20" #distmarkings="ngModel" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon08">
+                                                    <img src="./assets/public/playground_assets/microphonei503-70pv.svg"
+                                                        alt="microphoneI503" class="found-pets-microphone3" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="distmarkings.errors && f.submitted">
+                                            <div *ngIf="age.errors?.['required']">distinct markings is required</div>
+                                        
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="found-pets-form-input5">
+                                <div class="found-pets-frame2467">
+                                    <div class="found-pets-textfield20">
+                                        <div class="found-pets-textfield21">
+                                            <div class="found-pets-statelayer10">
+                                                <div class="found-pets-content10">
+                                                    <div class="found-pets-placeholdertext4">
+                                                        <span class="found-pets-text105 Regular16px">
+                                                            <span>Tell us about your pet</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="found-pets-labeltext10">
+                                                        <span class="found-pets-text107 MontserratRegular14px">
+                                                            <!-- <input type="text" placeholder="Description" class="account-edit-profile-inputtext" autocomplete="descri" name="descri"
+                                                                [(ngModel)]="form.descri" required minlength="3" maxlength="20" #descri="ngModel" /> -->
+<textarea rows="" cols="" autocomplete="descri" 
+name="descri" [(ngModel)]="form.descri" required minlength="3"
+    #descri="ngModel"></textarea>
+
+
+
+
+
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="found-pets-trailingicon09">
+                                                    <img src="./assets/public/playground_assets/microphonei503-w35c.svg"
+                                                        alt="microphoneI503" class="found-pets-microphone4" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="descri.errors && f.submitted">
+                                            <div *ngIf="descri.errors?.['required']">Description markings is required</div>
+                                        
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+
+
+                            <div class="found-pets-image">
+                                <div class="found-pets-frame2468">
+                                    <span class="found-pets-text109 MontserratRegularH5">
+                                        <span>Image</span>
+                                    </span>
+                                    <input type="file" (change)="onFileimage($event)" name="image" required>
+
+                                    <p *ngIf="!selectedImagepet" style="color: red;">{{this.msgi}}</p>
+
+                                    <span class="found-pets-text111 MontserratRegularSmallerText">
+                                        <span>Max File Number 5 Mb</span>
+                                    </span>
+                                  
+                                </div>
+                            </div>
+                            <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
+                                Update failed!<br />{{ errorMessage }}
+                            </div>
+                            
+                            <div class="login-button" *ngIf="isSuccessful">
+                                <h2 style="color: red; text-align: center;">add is successful!
+                            
+                                </h2> <a href="/">Go to home!</a>
+                            
+                            </div>
+                            <button class="found-pets-button3">
+                                <div class="found-pets-stylelayer2">
+                                    <span class="found-pets-text113 MontserratMedium14px">
+                                        <span>Submit</span>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+
+</form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

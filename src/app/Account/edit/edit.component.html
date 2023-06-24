@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+
+        p,
+        li,
+        ul,
+        pre,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        figure,
+        blockquote,
+        figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button,
+        select {
+            text-transform: none;
+        }
+
+        /* button,
+        [type="button"],
+        [type="reset"],
+        [type="submit"] {
+            -webkit-appearance: button;
+        } */
+
+        button::-moz-focus-inner,
+        [type="button"]::-moz-focus-inner,
+        [type="reset"]::-moz-focus-inner,
+        [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+
+        button:-moz-focus,
+        [type="button"]:-moz-focus,
+        [type="reset"]:-moz-focus,
+        [type="submit"]:-moz-focus {
+            outline: 1px dotted ButtonText;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-gray-white);
+
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div>
+        
+ 
+        <div class="account-edit-profile-container">
+            <div class="account-edit-profile-account-edit-profile">
+                <img alt="Rectangle35035" src="./assets/public/playground_assets/rectangle35035-pp1d-400h.png"
+                    class="account-edit-profile-rectangle3" />
+                <div class="account-edit-profile-frame256">
+                    <div class="account-edit-profile-frame245">
+                        <div class="account-edit-profile-frame240">
+                            <div class="account-edit-profile-frame232">
+                              
+ 
+                                        
+                <img *ngIf="imageUrl" [src]="imageUrl" alt="Image"  class="account-edit-profile-ellipse1">
+                <img *ngIf="!imageUrl"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nRbIObRQkMacJ9ORydgR3yfqFffAMVlzRQHG6JY&s"
+                                                alt="Image"  class="account-edit-profile-ellipse1">
+                                        
+                                     
+
+                                <div class="account-edit-profile-frame231">
+                                    <span class="account-edit-profile-text MontserratSemibold24px">
+                                        <span>{{this.eeee}}</span>
+                                    </span>
+                                    <span class="account-edit-profile-text02 MontserratRegular16px">
+                                    <span>{{this.eee}}</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <img alt="Pen5035" src="./assets/public/playground_assets/pen5035-f2m.svg"
+                                        class="account-edit-profile-pen" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="account-edit-profile-frame71">
+                            <span class="account-edit-profile-text04 MontserratSemibold16px">
+                                <span>Account</span>
+                            </span>
+                            <img alt="Line15035" src="./assets/public/playground_assets/line15035-k1ki.svg"
+                                class="account-edit-profile-line1" />
+                            <span class="account-edit-profile-text06 MontserratSemibold16px">
+                                <span>Favorite Pets</span>
+                            </span>
+                            <img alt="Line45035" src="./assets/public/playground_assets/line45035-h0ib.svg"
+                                class="account-edit-profile-line4" />
+                        </div>
+                    </div>
+                    <div class="account-edit-profile-frame244">
+                        <span class="account-edit-profile-text08 TradeGothicBold32px">
+                            <span>Edit Account</span>
+                        </span>
+                        <form *ngIf="!isSuccessful" 
+                        name="form" 
+                        (ngSubmit)="f.form.valid && onSubmit()" 
+                        #f="ngForm" novalidate>
+                        <div class="account-edit-profile-frame38">
+                            <div class="account-edit-profile-name">
+                                <div class="account-edit-profile-frame246">
+
+                                    <div class="account-edit-profile-textfield">
+                                        <div class="account-edit-profile-textfield01">
+                                            <div class="account-edit-profile-statelayer">
+                                                <div class="account-edit-profile-content">
+                                                    <div class="account-edit-profile-placeholdertext">
+                                                        <input type="text" placeholder="Your username" class="account-edit-profile-inputtext"
+                                     autocomplete="username" name="username"
+                                      [(ngModel)]="form.username"
+                                      required
+                                      minlength="3"
+                                      maxlength="20"
+                                      #username="ngModel" />
+                                                    </div>
+                                                    <div class="account-edit-profile-labeltext">
+                                                        <span class="account-edit-profile-text12 MontserratRegular14px">
+                                                            <span>Username</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="account-edit-profile-trailingicon">
+                                                    <img alt="microphoneI503"
+                                                        src="./assets/public/playground_assets/microphonei503-a3si.svg"
+                                                        class="account-edit-profile-microphone" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div style="color: red;" class="alert-danger" *ngIf="username.errors && f.submitted">
+                                            <div *ngIf="username.errors?.['required']">Username is required</div>
+                                            <div *ngIf="username.errors?.['minlength']">
+                                                Username must be at least 3 characters
+                                            </div>
+                                            <div *ngIf="username.errors?.['maxlength']">
+                                                Username must be at most 20 characters
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="account-edit-profile-textfield02">
+                                        <div class="account-edit-profile-textfield03">
+                                            <div class="account-edit-profile-statelayer1">
+                                                <div class="account-edit-profile-content1">
+                                                    <input type="text" placeholder="Your Last Name"
+                                                        class="account-edit-profile-inputtext"
+                                      autocomplete="last_name" name="last_name"
+                                      [(ngModel)]="form.last_name"
+                                      required
+                                      minlength="3"
+                                      maxlength="20"
+                                      #last_name="ngModel" />
+                                                    <div class="account-edit-profile-labeltext1">
+                                                        <span class="account-edit-profile-text14 MontserratRegular14px">
+                                                            <span>Last Name</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="account-edit-profile-trailingicon1">
+                                                    <img alt="microphoneI503"
+                                                        src="./assets/public/playground_assets/microphonei503-e9i.svg"
+                                                        class="account-edit-profile-microphone1" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="last_name.errors && f.submitted">
+                                            <div *ngIf="last_name.errors?.['required']">Last Name is required</div>
+                                            <div *ngIf="last_name.errors?.['minlength']">
+                                                Last Name must be at least 3 characters
+                                            </div>
+                                            <div *ngIf="last_name.errors?.['maxlength']">
+                                                Last Name must be at most 20 characters
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="account-edit-profile-emailandpassword">
+                                <div class="account-edit-profile-frame2461">
+
+
+
+                                    <div class="account-edit-profile-textfield04">
+                                        <div class="account-edit-profile-textfield05">
+                                            <div class="account-edit-profile-statelayer2">
+                                                <div class="account-edit-profile-content2">
+                                                    <div class="account-edit-profile-placeholdertext1">
+                                                        <input type="email" placeholder="Your Email" class="account-edit-profile-inputtext"
+                                      autocomplete="email" name="email"
+                                      [(ngModel)]="form.email"
+                                      required
+                                      minlength="3"
+                                      maxlength="50"
+                                      #email="ngModel"
+                                       />
+                                                    </div>
+                                                    <div class="account-edit-profile-labeltext2">
+                                                        <span class="account-edit-profile-text18 MontserratRegular14px">
+                                                            <span>Email</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="account-edit-profile-trailingicon2">
+                                                    <img alt="microphoneI503"
+                                                        src="./assets/public/playground_assets/microphonei503-ye6s.svg"
+                                                        class="account-edit-profile-microphone2" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="color: red;" class="alert-danger" *ngIf="email.errors && f.submitted">
+                                            <div *ngIf="email.errors?.['required']">Email is required</div>
+                                            <div *ngIf="email.errors?.['email']">
+                                                Email must be a valid email address
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="account-edit-profile-textfield06">
+                                        <div class="account-edit-profile-textfield07">
+                                            <div class="account-edit-profile-statelayer3">
+                                                <div class="account-edit-profile-content3">
+                                                    <input type="password" placeholder="************"
+                                                        class="account-edit-profile-inputtext1"  autocomplete="password" name="password"
+                                      [(ngModel)]="form.password"
+                                      required
+                                      minlength="6"
+                                      #password="ngModel"/>
+                                                    <div class="account-edit-profile-labeltext3">
+                                                        <span class="account-edit-profile-text20 MontserratRegular14px">
+                                                            <span>Password</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="account-edit-profile-trailingicon3">
+                                                    <img alt="eyeoffI503"
+                                                        src="./assets/public/playground_assets/eyeoffi503-gglp.svg"
+                                                        class="account-edit-profile-eyeoff" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div style="color: red;" class="alert-danger" *ngIf="password.errors && f.submitted">
+                                            <div *ngIf="password.errors?.['required']">Password is required</div>
+                                            <div *ngIf="password.errors?.['minlength']">
+                                                Password must be at least 6 characters
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-edit-profile-phoneand-address">
+                                <div class="account-edit-profile-frame2462">
+                                    <div class="account-edit-profile-textfield08">
+                                        <div class="account-edit-profile-textfield09">
+                                            <div class="account-edit-profile-statelayer4">
+                                                <div class="account-edit-profile-content4">
+                                                    <div class="account-edit-profile-placeholdertext2">
+                                                        <span class="account-edit-profile-text22 Regular16px">
+                                                            <span>+1 234-567-890</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="account-edit-profile-labeltext4">
+                                                        <span class="account-edit-profile-text24 MontserratRegular14px">
+                                                            <span>Phone Number</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="account-edit-profile-trailingicon4">
+                                                    <img alt="microphoneI503"
+                                                        src="./assets/public/playground_assets/microphonei503-936d.svg"
+                                                        class="account-edit-profile-microphone3" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="account-edit-profile-textfield10">
+                                        <div class="account-edit-profile-textfield11">
+                                            <div class="account-edit-profile-statelayer5">
+                                                <div class="account-edit-profile-content5">
+                                                    <input type="text" placeholder="Type Your Address"
+                                                        class="account-edit-profile-inputtext2"
+                                     autocomplete="first_name"
+                                      name="first_name"
+                                      [(ngModel)]="form.first_name"
+                                      required
+                                      minlength="3"
+                                      maxlength="90"
+                                      #first_name="ngModel" />
+                                                    <div class="account-edit-profile-labeltext5">
+                                                        <span class="account-edit-profile-text26 MontserratRegular14px">
+                                                            <span>Address</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="account-edit-profile-trailingicon5">
+                                                    <img alt="LocationI503"
+                                                        src="./assets/public/playground_assets/locationi503-li0f.svg"
+                                                        class="account-edit-profile-location" />
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                                    <div style="color: red;" class="alert-danger" *ngIf="last_name.errors && f.submitted">
+                                                        <div *ngIf="last_name.errors?.['required']">Address is required</div>
+                                                        <div *ngIf="last_name.errors?.['minlength']">
+                                                            first_name must be at least 3 characters
+                                                        </div>
+
+                                                    </div>
+                                              </div>
+                                </div>
+                            </div>
+                            <button class="account-edit-profile-button">
+                                <div class="account-edit-profile-stylelayer">
+                                    <span class="account-edit-profile-text28 MontserratMedium14px">
+                                        <span>Submit</span>
+                                    </span>
+                                </div>
+                            </button>
+                            <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
+                                Update failed!<br />{{ errorMessage }}
+                            </div>
+                        </div>
+
+                    </form> 
+               <div class="login-button" *ngIf="isSuccessful">
+                    <h3>Update is successful!</h3>
+                    <h3>Login again !</h3>
+              </div>
+                    </div>
+                </div>
+                <button class="account-edit-profile-button1">
+                    <input *ngIf="fileSelected" style="margin-right: 50%;" type="file" (change)="onFileSelected($event)">
+                    <div class="account-edit-profile-stylelayer1">
+                        
+                        <img alt="UploadI503" src="./assets/public/playground_assets/uploadi503-gxdp.svg"
+                            class="account-edit-profile-upload" />
+                        <span class="account-edit-profile-text30 MontserratMedium14px">
+                        <button (click)="uploadImage()" style="color: white;">Upload image</button>
+                        </span>
+                    </div>
+                </button>
+                <div class="account-edit-profile-header-default">
+                    <div class="account-edit-profile-frame22">
+                        <div class="account-edit-profile-frame20">
+                            <img alt="ExploreI503" src="./assets/public/playground_assets/explorei503-matc.svg"
+                                class="account-edit-profile-explore" />
+                            <span class="account-edit-profile-text32 MontserratSemibold14px">
+                                <span><a href="/listing/Lost-Pet">I’ve Lost Pets</a></span>
+                            </span>
+                        </div>
+                        <div class="account-edit-profile-frame21">
+                            <img alt="materialsymbolssearchroundedI503"
+                                src="./assets/public/playground_assets/materialsymbolssearchroundedi503-014f.svg"
+                                class="account-edit-profile-materialsymbolssearchrounded" />
+                            <span class="account-edit-profile-text34 MontserratSemibold14px">
+                                <span><a href="/listing/found-Pet">I’ve Found Pets</a></span>
+                            </span>
+                        </div>
+                    </div>
+      <a href=""> 
+                    <div class="account-edit-profile-logo">
+                        <div class="account-edit-profile-group">
+                            <img alt="TemporaryLogoI503" src="./assets/public/playground_assets/temporarylogoi503-f34e-200h.png"
+                                class="account-edit-profile-temporary-logo" />
+                        </div>
+                        <img alt="LI503" src="./assets/public/playground_assets/li503-3bip.svg" class="account-edit-profile-l" />
+                        <img alt="GI503" src="./assets/public/playground_assets/gi503-oav.svg" class="account-edit-profile-g" />
+                        <img alt="OI503" src="./assets/public/playground_assets/oi503-7irq.svg" class="account-edit-profile-o" />
+                    </div>
+</a>
+
+                    <div class="account-edit-profile-frame24">
+                        <div class="account-edit-profile-frame241">
+                            <div class="account-edit-profile-frame28">
+                                <div class="account-edit-profile-frame30">
+                                    <img alt="heartI503" src="./assets/public/playground_assets/hearti503-vqif.svg"
+                                        class="account-edit-profile-heart" />
+                                    <span class="account-edit-profile-text36 MontserratSemibold14px">
+                                        <span>Favourites</span>
+                                    </span>
+                                </div>
+                                <span class="account-edit-profile-text38 MontserratSemibold14px">
+                                    |
+                                </span>
+                            </div>
+                            <div class="account-edit-profile-frame29">
+                                <img alt="Ellipse1I503" src="./assets/public/playground_assets/ellipse1i503-kz5c-200h.png"
+                                    class="account-edit-profile-ellipse11" />
+                                <span class="account-edit-profile-text39 MontserratSemibold14px">
+                                    <span>Michael</span>
+                                </span>
+                                <img alt="Ellipse4I503" src="./assets/public/playground_assets/ellipse4i503-ati2-200h.png"
+                                    class="account-edit-profile-ellipse4" />
+                                <img alt="ArrowDownI503" src="./assets/public/playground_assets/arrowdowni503-hvhj.svg"
+                                    class="account-edit-profile-arrow-down" />
+                            </div>
+                        </div>
+                    </div>
+                    <img alt="Rectangle5I503" src="./assets/public/playground_assets/rectangle5i503-y3un-200h.png"
+                        class="account-edit-profile-rectangle5" />
+                </div>
+                <div class="account-edit-profile-footer">
+                    <div class="account-edit-profile-frame2608782">
+                        <div class="account-edit-profile-frame2608747">
+                            <div class="account-edit-profile-frame2608743">
+                                <span class="account-edit-profile-text41 TradeGothicBoldH1">
+                                    <span>Subscribe Newsletter</span>
+                                </span>
+                                <div class="account-edit-profile-frame2608755">
+                                    <div class="account-edit-profile-frame26087431">
+                                        <span class="account-edit-profile-text43 MontserratRegularH5">
+                                            <span>Join Our Community</span>
+                                        </span>
+                                        <span class="account-edit-profile-text45 MontserratRegularBody">
+                                            <span>
+                                                Be the First to Know About New Adoptable Pets and
+                                                Receive Our Monthly Newsletter. Subscribe Now!
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="account-edit-profile-frame2608741">
+                                        <div class="account-edit-profile-textfield12">
+                                            <div class="account-edit-profile-textfield13">
+                                                <div class="account-edit-profile-statelayer6">
+                                                    <div class="account-edit-profile-content6">
+                                                        <div class="account-edit-profile-labeltext6">
+                                                            <span
+                                                                class="account-edit-profile-text47 MontserratRegularBody">
+                                                                <span>Your email address</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="account-edit-profile-button2">
+                                            <div class="account-edit-profile-stylelayer2">
+                                                <span class="account-edit-profile-text49 MontserratMedium14px">
+                                                    <span>Subscribe</span>
+                                                </span>
+                                            </div>
+                                        </button>
+                                        <button class="account-edit-profile-button3"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="emojionev1openmailboxwithloweredflagI503"
+                                src="./assets/public/playground_assets/emojionev1openmailboxwithloweredflagi503-0jw.svg"
+                                class="account-edit-profile-emojionev1openmailboxwithloweredflag" />
+                        </div>
+                        <div class="account-edit-profile-frame2608748">
+                            <div class="account-edit-profile-frame2608750">
+
+<a href="">
+                                <div class="account-edit-profile-logo1">
+                                    <div class="account-edit-profile-group1">
+                                        <img alt="TemporaryLogoI503"
+                                            src="./assets/public/playground_assets/temporarylogoi503-wfl-200h.png"
+                                            class="account-edit-profile-temporary-logo1" />
+                                    </div>
+                                    <img alt="LI503" src="./assets/public/playground_assets/li503-lshc.svg"
+                                        class="account-edit-profile-l1" />
+                                    <img alt="GI503" src="./assets/public/playground_assets/gi503-bye.svg"
+                                        class="account-edit-profile-g1" />
+                                    <img alt="OI503" src="./assets/public/playground_assets/oi503-7a0n.svg"
+                                        class="account-edit-profile-o1" />
+                                </div>
+
+</a>
+                                <div class="account-edit-profile-frame2608749">
+                                    <div class="account-edit-profile-akariconsfacebookfill">
+                                        <div class="account-edit-profile-group2">
+                                            <div class="account-edit-profile-group3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="account-edit-profile-akariconsyoutubefill">
+                                        <div class="account-edit-profile-group4">
+                                            <div class="account-edit-profile-group5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-edit-profile-frame26087481">
+                                <div class="account-edit-profile-frame2608742">
+                                    <span class="account-edit-profile-text51 TradeGothicBoldH6">
+                                        <span>Our Destinations</span>
+                                    </span>
+                                    <div class="account-edit-profile-frame2608776">
+                                        <span class="account-edit-profile-text53 MontserratRegularSmallText">
+                                            <span>Canada</span>
+                                        </span>
+                                        <span class="account-edit-profile-text55 MontserratRegularSmallText">
+                                            <span>Alaksa</span>
+                                        </span>
+                                        <span class="account-edit-profile-text57 MontserratRegularSmallText">
+                                            <span>France</span>
+                                        </span>
+                                        <span class="account-edit-profile-text59 MontserratMedium14px">
+                                            <span>Iceland</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="account-edit-profile-frame2608744">
+                                    <span class="account-edit-profile-text61 TradeGothicBoldH6">
+                                        <span>Our Activities</span>
+                                    </span>
+                                    <div class="account-edit-profile-frame2608777">
+                                        <span class="account-edit-profile-text63 MontserratRegularSmallText">
+                                            <span>Northern Lights</span>
+                                        </span>
+                                        <span class="account-edit-profile-text65 MontserratRegularSmallText">
+                                            <span>Cruising &amp; sailing</span>
+                                        </span>
+                                        <span class="account-edit-profile-text67 MontserratRegularSmallText">
+                                            <span>Multi-activities</span>
+                                        </span>
+                                        <span class="account-edit-profile-text69 MontserratRegularSmallText">
+                                            <span>Kayaing</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="account-edit-profile-frame26087471">
+                                    <span class="account-edit-profile-text71 TradeGothicBoldH6">
+                                        <span>Travel Blogs</span>
+                                    </span>
+                                    <div class="account-edit-profile-frame2608778">
+                                        <span class="account-edit-profile-text73 MontserratRegularSmallText">
+                                            <span>Bali Travel Guide</span>
+                                        </span>
+                                        <span class="account-edit-profile-text75 MontserratRegularSmallText">
+                                            <span>Sri Lanks Travel Guide</span>
+                                        </span>
+                                        <span class="account-edit-profile-text77 MontserratRegularSmallText">
+                                            <span>Peru Travel Guide</span>
+                                        </span>
+                                        <span class="account-edit-profile-text79 MontserratRegularSmallText">
+                                            <span>Bali Travel Guide</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="account-edit-profile-frame2608745">
+                                    <span class="account-edit-profile-text81 TradeGothicBoldH6">
+                                        <span>About Us</span>
+                                    </span>
+                                    <div class="account-edit-profile-frame2608779">
+                                        <span class="account-edit-profile-text83 MontserratRegularSmallText">
+                                            <span>Our Story</span>
+                                        </span>
+                                        <span class="account-edit-profile-text85 MontserratRegularSmallText">
+                                            <span>Work with us</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="account-edit-profile-frame2608746">
+                                    <span class="account-edit-profile-text87 TradeGothicBoldH6">
+                                        <span>Contact Us</span>
+                                    </span>
+                                    <div class="account-edit-profile-frame2608780">
+                                        <span class="account-edit-profile-text89 MontserratRegularSmallText">
+                                            <span>Our Story</span>
+                                        </span>
+                                        <span class="account-edit-profile-text91 MontserratRegularSmallText">
+                                            <span>Work with us</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="account-edit-profile-copyrightfootnote">
+                        <span class="account-edit-profile-text93 MontserratRegularSmallerText">
+                            <span>
+                                Copyright © 2023 All Rights Reserved. In association with
+                                IamThehackerman.com
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

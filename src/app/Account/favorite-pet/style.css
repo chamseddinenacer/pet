@@ -1,0 +1,635 @@
+:root {
+    --dl-color-error-10: rgba(255, 228, 230, 1);
+    --dl-color-error-30: rgba(253, 164, 175, 1);
+    --dl-color-error-50: rgba(244, 63, 94, 1);
+    --dl-color-error-70: rgba(190, 18, 60, 1);
+    --dl-color-error-90: rgba(136, 19, 55, 1);
+    --dl-color-gray-500: #595959;
+    --dl-color-gray-700: #999999;
+    --dl-color-gray-900: #D9D9D9;
+    --dl-color-neutral-0: rgba(255, 255, 255, 1);
+    --dl-size-size-large: 144px;
+    --dl-size-size-small: 48px;
+    --dl-color-danger-300: #A22020;
+    --dl-color-danger-500: #BF2626;
+    --dl-color-danger-700: #E14747;
+    --dl-color-gray-black: #000000;
+    --dl-color-gray-white: #FFFFFF;
+    --dl-color-neutral-10: rgba(195, 195, 195, 1);
+    --dl-color-neutral-30: rgba(152, 152, 152, 1);
+    --dl-color-neutral-50: rgba(109, 109, 109, 1);
+    --dl-color-neutral-70: rgba(65, 65, 65, 1);
+    --dl-color-neutral-90: rgba(22, 22, 22, 1);
+    --dl-color-success-10: rgba(209, 250, 229, 1);
+    --dl-color-success-30: rgba(110, 231, 183, 1);
+    --dl-color-success-50: rgba(16, 185, 129, 1);
+    --dl-color-success-70: rgba(4, 120, 87, 1);
+    --dl-color-success-90: rgba(6, 78, 59, 1);
+    --dl-color-warning-10: rgba(254, 249, 195, 1);
+    --dl-color-warning-30: rgba(253, 224, 71, 1);
+    --dl-color-warning-50: rgba(250, 204, 21, 1);
+    --dl-color-warning-70: rgba(161, 98, 7, 1);
+    --dl-color-warning-90: rgba(113, 63, 18, 1);
+    --dl-size-size-medium: 96px;
+    --dl-size-size-xlarge: 192px;
+    --dl-size-size-xsmall: 16px;
+    --dl-space-space-unit: 16px;
+    --dl-color-primary-100: #003EB3;
+    --dl-color-primary-300: #0074F0;
+    --dl-color-primary-500: #14A9FF;
+    --dl-color-primary-700: #85DCFF;
+    --dl-color-success-300: #199033;
+    --dl-color-success-500: #32A94C;
+    --dl-color-success-700: #4CC366;
+    --dl-size-size-xxlarge: 288px;
+    --dl-color-secondary-10: rgba(242, 196, 154, 1);
+    --dl-color-secondary-30: rgba(237, 177, 121, 1);
+    --dl-color-secondary-50: rgba(233, 157, 87, 1);
+    --dl-color-secondary-70: rgba(186, 126, 70, 1);
+    --dl-color-secondary-90: rgba(140, 94, 52, 1);
+    --dl-size-size-maxwidth: 1400px;
+    --dl-radius-radius-round: 50%;
+    --dl-color-neutrals-white: rgba(255, 255, 255, 1);
+    --dl-space-space-halfunit: 8px;
+    --dl-space-space-sixunits: 96px;
+    --dl-space-space-twounits: 32px;
+    --dl-radius-radius-radius2: 2px;
+    --dl-radius-radius-radius4: 4px;
+    --dl-radius-radius-radius8: 8px;
+    --dl-space-space-fiveunits: 80px;
+    --dl-space-space-fourunits: 64px;
+    --dl-color-default-neutrals: rgba(255, 255, 255, 1);
+    --dl-color-primary-primary0: rgba(250, 251, 252, 1);
+    --dl-space-space-threeunits: 48px;
+    --dl-color-primary-primary10: rgba(140, 194, 200, 1);
+    --dl-color-primary-primary30: rgba(102, 173, 182, 1);
+    --dl-color-primary-primary50: rgba(64, 153, 164, 1);
+    --dl-color-primary-primary70: rgba(51, 122, 131, 1);
+    --dl-color-primary-primary90: rgba(38, 92, 98, 1);
+    --dl-color-primary-primary120: rgba(26, 61, 66, 1);
+    --dl-color-default-blackishgreen: rgba(17, 34, 17, 1);
+    --dl-space-space-oneandhalfunits: 24px;
+    --dl-color-primary-primarycardbg40: rgba(141, 211, 187, 0.4000000059604645);
+}
+
+.button {
+    color: var(--dl-color-gray-black);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-gray-white);
+}
+
+.input {
+    color: var(--dl-color-gray-black);
+    cursor: auto;
+    padding: 0.5rem 1rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-gray-white);
+}
+
+.textarea {
+    color: var(--dl-color-gray-black);
+    cursor: auto;
+    padding: 0.5rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-gray-white);
+}
+
+.list {
+    width: 100%;
+    margin: 1em 0px 1em 0px;
+    display: block;
+    padding: 0px 0px 0px 1.5rem;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.list-item {
+    display: list-item;
+}
+
+.teleport-show {
+    display: flex !important;
+    transform: none !important;
+}
+
+.MontserratMediumSmallText {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.MontserratSemibold14px {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.TradeGothicBoldH5 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.TradeGothicRegularH4 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratRegularSmalletText {
+    font-size: 10px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.TradeGothicBoldH4 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratBoldH1 {
+    font-size: 40px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratBoldH4 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.Content {
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.TradeGothicRegularH5 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratRegularH2 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.TradeGothicBoldH3 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratMedium12px {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.MontserratRegularH1 {
+    font-size: 40px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratRegularH5 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratSemiBoldH5 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.Heading {
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.MontserratRegularSmallerText {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.TradeGothicRegularH6 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratBoldSmallHeading {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.TradeGothicRegularSmallHeading {
+    font-size: 14px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratBoldH5 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratMediumSmallestText {
+    font-size: 10px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.TradeGothicBoldH6 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratMediumH4 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.MontserratMediumH6 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.TradeGothicRegularSmallerHeading {
+    font-size: 12px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratSemiBoldH4 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.MontserratSemiBoldSmallerHeading {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.TradeGothicRegularH2 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.TradeGothicBold14px {
+    font-size: 14px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratBoldSmalletsHeading {
+    font-size: 10px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratRegularBody {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratMediumH1 {
+    font-size: 40px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.MontserratRegularSmallText {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratMediumH3 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.MontserratBoldH6 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratBoldSmallerHeading {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratMediumSmallerText {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.TradeGothicBoldSmallestHeading {
+    font-size: 10px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratSemiBoldH2 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.MontserratMedium14px {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.MontserratMediumH2 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.TradeGothicRegularSmallestHeading {
+    font-size: 10px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.TradeGothicRegularH3 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratRegularH3 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratMediumH5 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+}
+
+.MontserratSemiBoldH1 {
+    font-size: 40px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.TradeGothicBoldH2 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratSemiBoldH3 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.TradeGothicBold12px {
+    font-size: 12px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.TradeGothicBoldH1 {
+    font-size: 40px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratBoldH2 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratSemiBoldSmallestHeading {
+    font-size: 10px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.MontserratSemiBoldH6 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.TradeGothicBoldSmallerHeading {
+    font-size: 12px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratRegular16px {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.MontserratBoldH3 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratSemibold24px {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.MontserratSemiBoldSmallHeading {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.TradeGothicRegularH1 {
+    font-size: 40px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 400px;
+    font-stretch: normal;
+}
+
+.TradeGothicBoldSmallHeading {
+    font-size: 14px;
+    font-style: normal;
+    font-family: TradeGothic LT Extended;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+
+.MontserratSemibold16px {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+}
+
+.MontserratRegularH4 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+}

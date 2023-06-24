@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+
+        p,
+        li,
+        ul,
+        pre,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        figure,
+        blockquote,
+        figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+
+         
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+
+        }
+
+         
+
+        button,
+        select {
+            text-transform: none;
+        }
+
+        /* button,
+        [type="button"],
+        [type="reset"],
+        [type="submit"] {
+            -webkit-appearance: button;
+        } */
+
+        button::-moz-focus-inner,
+        [type="button"]::-moz-focus-inner,
+        [type="reset"]::-moz-focus-inner,
+        [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+
+        button:-moz-focus,
+        [type="button"]:-moz-focus,
+        [type="reset"]:-moz-focus,
+        [type="submit"]:-moz-focus {
+            outline: 1px dotted ButtonText;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-gray-white);
+
+        }
+    </style>
+   
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div>
+ 
+        <div class="login-container">
+            
+            <div class="login-login">
+                <div class="login-group4">
+                    <img style="height: 88%;" src="./assets/public/playground_assets/rectangle202011-zis-700w.png" alt="Rectangle202011"
+                        class="login-rectangle20" />
+                  
+                        <!-- <img src="./assets/public/playground_assets/rectangle222011-0t18-200h.png" alt="Rectangle222011"
+                        class="login-rectangle22" /> -->
+                       <!-- <div class="login-frame265">
+                        <img src="./assets/public/playground_assets/rectangle212011-xl05-200h.png" alt="Rectangle212011"
+                            class="login-rectangle21" />
+                        <img src="./assets/public/playground_assets/ellipse62011-elfo-200h.png" alt="Ellipse62011"
+                            class="login-ellipse6" />
+                        <img src="./assets/public/playground_assets/ellipse72011-458-200h.png" alt="Ellipse72011"
+                            class="login-ellipse7" />
+                    </div> -->
+
+                </div>
+                <form
+                 *ngIf="!isLoggedIn" 
+                name="form" 
+                (ngSubmit)="f.form.valid && onSubmit()" 
+                #f="ngForm" novalidate>
+                <div class="login-frame266">
+                    <div class="login-frame261" >
+                        <span class="login-text TradeGothicBold40px">
+                            <span>Login</span>
+                        </span>
+                        <span class="login-text02 MontserratRegular16px">
+                            <span>Login to access your account</span>
+                        </span>
+                    </div>
+                    <div class="login-frame258">
+                        <div class="login-frame259">
+
+
+
+                            <div class="login-textfield2">
+                                <div class="login-textfield3">
+                                    <div class="login-statelayer1">
+                                        <div class="login-content1">
+                                            <div class="login-labeltext1">
+                                                <span class="login-text06 MontserratRegular14px">
+                                                    <span>username</span>
+                                                </span>
+                                            </div>
+                                            <input  type="text" placeholder="johndoe" class="login-inputtext1"
+                                              name="username" autocomplete="username"
+                      [(ngModel)]="form.username"
+                      required
+                      #username="ngModel"
+                       />
+                            
+                                        </div>
+                                        <div class="login-trailingicon">
+                                          <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+ 
+                            <div class="login-textfield2">
+                                <div class="login-textfield3">
+                                    <div class="login-statelayer1">
+                                        <div class="login-content1">
+                                            <div class="login-labeltext1">
+                                                <span class="login-text06 MontserratRegular14px">
+                                                    <span>Password</span>
+                                                </span>
+                                            </div>
+                                            <input type="password" placeholder="•••••••••••••••••••••••••"
+                                                class="login-inputtext1"  
+                                                 name="password" autocomplete="password"
+                      [(ngModel)]="form.password"
+                      required
+                      minlength="6"
+                      #password="ngModel"
+                      />
+                                           
+                                        </div>
+
+                                    
+                                        <div class="login-trailingicon">
+                                            <img src="./assets/public/playground_assets/eyeoffi201-n2xl.svg" alt="eyeoffI201"
+                                                class="login-eyeoff" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            <div class="login-frame257">
+                                <div class="login-frame101">
+                                    <!-- <img src="./assets/public/playground_assets/checkbox2011-e2aa.svg" alt="Checkbox2011"
+                                        class="login-checkbox" /> -->
+                                   
+                                         <input class="login-checkbox" type="checkbox" > Remember me
+                                   
+                                </div>
+                                <span class="login-text10 MontserratMedium14px">
+                                    <a routerLink="/auth/Forget-Password"><span>Forgot Password</span></a> 
+                                </span>
+                            </div>
+                        </div>
+                        <div class="login-frame260">
+                            <button class="login-button"  >
+                                <div class="login-stylelayer" >
+                                    <span class="login-text12 MontserratMedium14px">
+                                        <span >
+                                            Se connecter
+                                        </span>
+                                    </span>
+                                </div>
+                            </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <div class="form-group">
+                                        <div class="alert alert-danger" role="alert" *ngIf="f.submitted && isLoginFailed">
+                                            <!-- Login failed: {{ errorMessage }} -->
+                                            Incorrect username or password.
+                                        </div>
+                                    </div>
+                                    
+                        
+                                        <div class="col">
+                                            <div class="alert alert-danger" role="alert" *ngIf="username.errors && f.submitted">
+                                                username is required!
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="col">
+                                            <div class="alert alert-danger" role="alert" *ngIf="password.errors && f.submitted">
+                                                Password is required!
+                                            </div>
+                                        </div>
+                                    
+                            
+                
+
+    <div *ngIf="isLoggedIn">
+        <div class="alert alert-success">
+            Your login is successful!
+    
+    
+        </div>
+    </div>
+
+
+
+                            <span class="login-text14">
+                                <span class="login-text15">Don’t have an account?</span>
+                                <a routerLink="/auth/registre"><span><b>Sign up</b></span></a>
+                                
+                            </span>
+                        </div>
+
+                       
+                        <div class="login-frame262">
+                            <img src="./assets/public/playground_assets/rectangle62012-x3vd-200h.png" alt="Rectangle62012"
+                                class="login-rectangle6" />
+                            <span class="login-text17 MontserratRegular14px">
+                                <span>Or login with</span>
+                            </span>
+                            <img src="./assets/public/playground_assets/rectangle72012-wyqo-200h.png" alt="Rectangle72012"
+                                class="login-rectangle7" />
+                        </div>
+                        <div class="login-frame228">
+                            <img src="./assets/public/playground_assets/frame2242012-zx3s.svg" alt="Frame2242012"
+                                class="login-frame224" />
+                            <div class="login-frame225">
+                                <img src="./assets/public/playground_assets/flatcoloriconsgoogle2012-slz.svg"
+                                    alt="flatcoloriconsgoogle2012" class="login-flatcoloriconsgoogle" />
+                            </div>
+                            <div class="login-frame226">
+                                <img src="./assets/public/playground_assets/materialsymbolslinkedcamera2012-ggk.svg"
+                                    alt="materialsymbolslinkedcamera2012" class="login-materialsymbolslinkedcamera" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+                </form>
+               
+
+
+
+
+                
+                <div class="login-logo">
+                    <div class="login-group">
+                        <img src="./assets/public/playground_assets/temporarylogoi201-n2j-200h.png" alt="TemporaryLogoI201"
+                            class="login-temporary-logo" />
+                    </div>
+                    <img src="./assets/public/playground_assets/li201-eeyfi.svg" alt="LI201" class="login-l" />
+                    <img src="./assets/public/playground_assets/gi201-tc6.svg" alt="GI201" class="login-g" />
+                    <img src="./assets/public/playground_assets/oi201-2l7n.svg" alt="OI201" class="login-o" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

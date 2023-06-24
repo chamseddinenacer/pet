@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+
+        p,
+        li,
+        ul,
+        pre,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        figure,
+        blockquote,
+        figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button,
+        select {
+            text-transform: none;
+        }
+
+        /* button,
+        [type="button"],
+        [type="reset"],
+        [type="submit"] {
+            -webkit-appearance: button;
+        } */
+
+        button::-moz-focus-inner,
+        [type="button"]::-moz-focus-inner,
+        [type="reset"]::-moz-focus-inner,
+        [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+
+        button:-moz-focus,
+        [type="button"]:-moz-focus,
+        [type="reset"]:-moz-focus,
+        [type="submit"]:-moz-focus {
+            outline: 1px dotted ButtonText;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-gray-white);
+
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div>
+ 
+        <div class="favorite-pets-container">
+            <div class="favorite-pets-favorite-pets">
+                <img alt="Rectangle34751" src="./assets/public/playground_assets/rectangle34751-p4la-400h.png"
+                    class="favorite-pets-rectangle3" />
+                <div class="favorite-pets-frame256">
+                    <div class="favorite-pets-frame245">
+                        <div class="favorite-pets-frame240">
+                            <div class="favorite-pets-frame232">
+                                
+
+                                        
+                                        
+                                            <img *ngIf="imageUrl" [src]="imageUrl" alt="Image" class="favorite-pets-ellipse1" >
+                                            <img *ngIf="!imageUrl"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nRbIObRQkMacJ9ORydgR3yfqFffAMVlzRQHG6JY&s"
+                                                alt="Image" class="favorite-pets-ellipse1" >
+                                        
+                                      
+
+                                <div class="favorite-pets-frame231">
+                                    <span class="favorite-pets-text MontserratSemibold24px">
+                                        <span>{{this.eeee}}</span>
+                                    </span>
+                                    <span class="favorite-pets-text002 MontserratRegular16px">
+                                        <span>{{this.eee}}</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <img alt="Pen4751" src="./assets/public/playground_assets/pen4751-noe4.svg"
+                                        class="favorite-pets-pen" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="favorite-pets-frame71">
+
+<a href="Account"> 
+                            <span class="favorite-pets-text004 MontserratSemibold16px">
+                                <span>Account</span>
+                            </span>
+
+</a>
+                            <img alt="Line14751" src="./assets/public/playground_assets/line14751-i9t.svg"
+                                class="favorite-pets-line1" />
+                        <a href="Account/favorite-Pet">
+                                <span class="favorite-pets-text006 MontserratSemibold16px">
+                                <span>Favorite Pets</span>
+                                 </span>
+                        </a>
+                        </div>
+                    </div>
+                    <img alt="Line44751" src="./assets/public/playground_assets/line44751-v82q.svg"
+                        class="favorite-pets-line4" />
+                </div>
+                <!-- <button class="favorite-pets-button">
+                    <div class="favorite-pets-stylelayer">
+                        <img alt="UploadI475" src="./assets/public/playground_assets/uploadi475-xwrl.svg"
+                            class="favorite-pets-upload" />
+                        <span class="favorite-pets-text008 MontserratMedium14px">
+                            <span>Upload new cover</span>
+                        </span>
+                    </div>
+                </button> -->
+                <div class="favorite-pets-header-default">
+                    <div class="favorite-pets-frame22">
+                        <div class="favorite-pets-frame20">
+                            <img alt="ExploreI475" src="./assets/public/playground_assets/explorei475-t8ln.svg"
+                                class="favorite-pets-explore" />
+                            <span class="favorite-pets-text010 MontserratSemibold14px">
+                                <span><a href="/listing/Lost-Pet">I’ve Lost Pets</a></span>
+                            </span>
+                        </div>
+                        <div class="favorite-pets-frame21">
+                            <img alt="materialsymbolssearchroundedI475"
+                                src="./assets/public/playground_assets/materialsymbolssearchroundedi475-6wlu.svg"
+                                class="favorite-pets-materialsymbolssearchrounded" />
+                            <span class="favorite-pets-text012 MontserratSemibold14px">
+                                <span><a href="/listing/found-Pet">I’ve Found Pets</a></span>
+                            </span>
+                        </div>
+                    </div>
+
+<a href="">
+                    <div class="favorite-pets-logo">
+                        <div class="favorite-pets-group">
+                            <img alt="TemporaryLogoI475" src="./assets/public/playground_assets/temporarylogoi475-m94f-200h.png"
+                                class="favorite-pets-temporary-logo" />
+                        </div>
+                        <img alt="LI475" src="./assets/public/playground_assets/li475-dtr4.svg" class="favorite-pets-l" />
+                        <img alt="GI475" src="./assets/public/playground_assets/gi475-clrc.svg" class="favorite-pets-g" />
+                        <img alt="OI475" src="./assets/public/playground_assets/oi475-ex2k.svg" class="favorite-pets-o" />
+                    </div>
+
+</a>
+                    <div class="favorite-pets-frame24">
+                        <div class="favorite-pets-frame241">
+                            <div class="favorite-pets-frame28">
+                                <div class="favorite-pets-frame30">
+                                    <img alt="heartI475" src="./assets/public/playground_assets/hearti475-7aom.svg"
+                                        class="favorite-pets-heart" />
+                                    <span class="favorite-pets-text014 MontserratSemibold14px">
+                                        <span>Favourites</span>
+                                    </span>
+                                </div>
+                                <span class="favorite-pets-text016 MontserratSemibold14px">
+                                    |
+                                </span>
+                            </div>
+                            <div class="favorite-pets-frame29">
+                                <img alt="Ellipse1I475" src="./assets/public/playground_assets/ellipse1i475-i7qa-200h.png"
+                                    class="favorite-pets-ellipse11" />
+                                <span class="favorite-pets-text017 MontserratSemibold14px">
+                                    <span>Michael</span>
+                                </span>
+                                <img alt="Ellipse4I475" src="./assets/public/playground_assets/ellipse4i475-1zsa-200h.png"
+                                    class="favorite-pets-ellipse4" />
+                                <img alt="ArrowDownI475" src="./assets/public/playground_assets/arrowdowni475-ptg8.svg"
+                                    class="favorite-pets-arrow-down" />
+                            </div>
+                        </div>
+                    </div>
+                    <img alt="Rectangle5I475" src="./assets/public/playground_assets/rectangle5i475-1sro-200h.png"
+                        class="favorite-pets-rectangle5" />
+                </div>
+                <div class="favorite-pets-footer">
+                    <div class="favorite-pets-frame2608782">
+                        <div class="favorite-pets-frame2608747">
+                            <div class="favorite-pets-frame2608743">
+                                <span class="favorite-pets-text019 TradeGothicBoldH1">
+                                    <span>Subscribe Newsletter</span>
+                                </span>
+                                <div class="favorite-pets-frame2608755">
+                                    <div class="favorite-pets-frame26087431">
+                                        <span class="favorite-pets-text021 MontserratRegularH5">
+                                            <span>Join Our Community</span>
+                                        </span>
+                                        <span class="favorite-pets-text023 MontserratRegularBody">
+                                            <span>
+                                                Be the First to Know About New Adoptable Pets and
+                                                Receive Our Monthly Newsletter. Subscribe Now!
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="favorite-pets-frame2608741">
+                                        <div class="favorite-pets-textfield">
+                                            <div class="favorite-pets-textfield1">
+                                                <div class="favorite-pets-statelayer">
+                                                    <div class="favorite-pets-content">
+                                                        <div class="favorite-pets-labeltext">
+                                                            <span class="favorite-pets-text025 MontserratRegularBody">
+                                                                <span>Your email address</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="favorite-pets-button1">
+                                            <div class="favorite-pets-stylelayer1">
+                                                <span class="favorite-pets-text027 MontserratMedium14px">
+                                                    <span>Subscribe</span>
+                                                </span>
+                                            </div>
+                                        </button>
+                                        <button class="favorite-pets-button2"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="emojionev1openmailboxwithloweredflagI475"
+                                src="./assets/public/playground_assets/emojionev1openmailboxwithloweredflagi475-4taq.svg"
+                                class="favorite-pets-emojionev1openmailboxwithloweredflag" />
+                        </div>
+                        <div class="favorite-pets-frame2608748">
+                            <div class="favorite-pets-frame2608750">
+                                <div class="favorite-pets-logo1">
+                                    <div class="favorite-pets-group1">
+                                        <img alt="TemporaryLogoI475"
+                                            src="./assets/public/playground_assets/temporarylogoi475-cbuc-200h.png"
+                                            class="favorite-pets-temporary-logo1" />
+                                    </div>
+                                    <img alt="LI475" src="./assets/public/playground_assets/li475-4myu.svg"
+                                        class="favorite-pets-l1" />
+                                    <img alt="GI475" src="./assets/public/playground_assets/gi475-m4tg.svg"
+                                        class="favorite-pets-g1" />
+                                    <img alt="OI475" src="./assets/public/playground_assets/oi475-o80r.svg"
+                                        class="favorite-pets-o1" />
+                                </div>
+                                <div class="favorite-pets-frame2608749">
+                                    <div class="favorite-pets-akariconsfacebookfill">
+                                        <div class="favorite-pets-group2">
+                                            <div class="favorite-pets-group3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="favorite-pets-akariconsyoutubefill">
+                                        <div class="favorite-pets-group4">
+                                            <div class="favorite-pets-group5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favorite-pets-frame26087481">
+                                <div class="favorite-pets-frame2608742">
+                                    <span class="favorite-pets-text029 TradeGothicBoldH6">
+                                        <span>Our Destinations</span>
+                                    </span>
+                                    <div class="favorite-pets-frame2608776">
+                                        <span class="favorite-pets-text031 MontserratRegularSmallText">
+                                            <span>Canada</span>
+                                        </span>
+                                        <span class="favorite-pets-text033 MontserratRegularSmallText">
+                                            <span>Alaksa</span>
+                                        </span>
+                                        <span class="favorite-pets-text035 MontserratRegularSmallText">
+                                            <span>France</span>
+                                        </span>
+                                        <span class="favorite-pets-text037 MontserratMedium14px">
+                                            <span>Iceland</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="favorite-pets-frame2608744">
+                                    <span class="favorite-pets-text039 TradeGothicBoldH6">
+                                        <span>Our Activities</span>
+                                    </span>
+                                    <div class="favorite-pets-frame2608777">
+                                        <span class="favorite-pets-text041 MontserratRegularSmallText">
+                                            <span>Northern Lights</span>
+                                        </span>
+                                        <span class="favorite-pets-text043 MontserratRegularSmallText">
+                                            <span>Cruising &amp; sailing</span>
+                                        </span>
+                                        <span class="favorite-pets-text045 MontserratRegularSmallText">
+                                            <span>Multi-activities</span>
+                                        </span>
+                                        <span class="favorite-pets-text047 MontserratRegularSmallText">
+                                            <span>Kayaing</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="favorite-pets-frame26087471">
+                                    <span class="favorite-pets-text049 TradeGothicBoldH6">
+                                        <span>Travel Blogs</span>
+                                    </span>
+                                    <div class="favorite-pets-frame2608778">
+                                        <span class="favorite-pets-text051 MontserratRegularSmallText">
+                                            <span>Bali Travel Guide</span>
+                                        </span>
+                                        <span class="favorite-pets-text053 MontserratRegularSmallText">
+                                            <span>Sri Lanks Travel Guide</span>
+                                        </span>
+                                        <span class="favorite-pets-text055 MontserratRegularSmallText">
+                                            <span>Peru Travel Guide</span>
+                                        </span>
+                                        <span class="favorite-pets-text057 MontserratRegularSmallText">
+                                            <span>Bali Travel Guide</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="favorite-pets-frame2608745">
+                                    <span class="favorite-pets-text059 TradeGothicBoldH6">
+                                        <span>About Us</span>
+                                    </span>
+                                    <div class="favorite-pets-frame2608779">
+                                        <span class="favorite-pets-text061 MontserratRegularSmallText">
+                                            <span>Our Story</span>
+                                        </span>
+                                        <span class="favorite-pets-text063 MontserratRegularSmallText">
+                                            <span>Work with us</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="favorite-pets-frame2608746">
+                                    <span class="favorite-pets-text065 TradeGothicBoldH6">
+                                        <span>Contact Us</span>
+                                    </span>
+                                    <div class="favorite-pets-frame2608780">
+                                        <span class="favorite-pets-text067 MontserratRegularSmallText">
+                                            <span>Our Story</span>
+                                        </span>
+                                        <span class="favorite-pets-text069 MontserratRegularSmallText">
+                                            <span>Work with us</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="favorite-pets-copyrightfootnote">
+                        <span class="favorite-pets-text071 MontserratRegularSmallerText">
+                            <span>
+                                Copyright © 2023 All Rights Reserved. In association with
+                                IamThehackerman.com
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+
+
+                <div class="favorite-pets-recently-uploaded-pets">
+                    <div class="favorite-pets-frame12" >
+                        <div  class="row"  class="favorite-pets-group11" >
+                          <div  class="col-sm"  *ngFor="let anim of favo">
+
+                                <!-- <img alt="Rectangle37I475" src="./assets/public/playground_assets/rectangle37i475-tq9-400w.png"
+                                    class="favorite-pets-rectangle37" /> -->
+                                <div class="favorite-pets-frame2608764">
+                                    <!-- <img alt="PetImageI475" src="./assets/public/playground_assets/petimagei475-bvc-200h.png"
+                                        class="favorite-pets-pet-image" /> -->
+
+                                        <img alt="PetImageI475" src="http://127.0.0.1:8000{{anim.image}}"
+                                            class="favorite-pets-pet-image" />
+
+                                    <div  class="favorite-pets-frame2608763">
+                                        <div class="favorite-pets-frame2608756">
+                                            <span class="favorite-pets-text073 TradeGothicBoldH4">
+
+                                                <!-- <span>{{anim.name}} </span> -->
+                                                <span *ngIf="anim.name">{{anim.name}} </span>
+                                                <span *ngIf="!anim.name">Pet Found </span>
+
+                                            </span>
+                                            <div class="favorite-pets-frame2608757">
+                                                <span class="favorite-pets-text075 MontserratMedium14px">
+                                                    <span>
+                                                    {{anim.descri}}
+                                                    </span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="favorite-pets-frame2608762">
+                                            <div class="favorite-pets-frame2608759">
+                                                <div class="favorite-pets-frame2608761">
+                                                    <span class="favorite-pets-text077 TradeGothicBold14px">
+                                                        <span>{{anim.Species}}</span>
+                                                    </span>
+                                                    <span class="favorite-pets-text079 MontserratMedium12px">
+                                                        <span>{{anim.gender}}</span>
+                                                    </span>
+                                                </div>
+                                                <div class="favorite-pets-organization-logoand-name">
+                                                    <img alt="arcticonspetrocanadaI475"
+                                                        src="./assets/public/playground_assets/arcticonspetrocanadai475-l7rd.svg"
+                                                        class="favorite-pets-arcticonspetrocanada" />
+                                                    <span class="favorite-pets-text081 TradeGothicBold12px">
+                                                        <span>{{anim.addrs}}</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <span class="favorite-pets-text083 TradeGothicBold14px">
+                                                <span>
+
+                                                 <a style="text-decoration: none;" href="Single-Page/Pet/{{anim.id}}">
+                                                    See Detail
+                                                </a>
+                                                
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+ 
+
+
+ 
+
+
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="favorite-pets-heading">
+                        <div class="favorite-pets-frame47">
+                            <div class="favorite-pets-frame19">
+                                <span class="favorite-pets-text109 TradeGothicBoldH5">
+                                    <span>Favorite Pets</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

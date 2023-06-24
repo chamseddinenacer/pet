@@ -1,0 +1,1590 @@
+.account-container {
+    min-height: 100vh;
+}
+
+.account-account {
+    width: 100%;
+    height: 2165px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(250, 251, 252, 1);
+}
+
+.account-rectangle3 {
+    top: 135px;
+    left: 104px;
+    width: 1232px;
+    height: 350px;
+    position: absolute;
+    flex-grow: 1;
+    align-self: stretch;
+    border-color: transparent;
+    border-radius: 12px;
+}
+
+.account-frame256 {
+    top: 415px;
+    left: 104px;
+    width: 1232px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-frame245 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+.account-frame240 {
+    width: 1232px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 32px;
+    justify-content: space-between;
+}
+
+.account-frame232 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account-ellipse1 {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    border-color: rgba(244, 63, 94, 1);
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: 24px;
+}
+
+.account-frame231 {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 24px;
+    flex-direction: column;
+}
+
+.account-text {
+    color: rgba(38, 92, 98, 1);
+    width: 185px;
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+
+.account-text02 {
+    color: rgba(38, 92, 98, 1);
+    width: 185px;
+    height: auto;
+    opacity: 0.75;
+    align-self: auto;
+    text-align: center;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-frame241 {
+    top: 116px;
+    left: 116px;
+    display: flex;
+    padding: 10px;
+    z-index: 2;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    border-radius: 45px;
+    background-color: rgba(244, 63, 94, 1);
+}
+
+.account-pen {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.account-frame71 {
+    width: 1232px;
+    display: flex;
+    padding: 16px 893px 16px 24px;
+    position: relative;
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05000000074505806);
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.account-text04 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    flex-grow: 1;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 24px;
+    margin-bottom: 0;
+}
+
+.account-line1 {
+    width: 48px;
+    height: 0px;
+    z-index: 1;
+    position: relative;
+    margin-right: 24px;
+}
+
+.account-text06 {
+    color: rgba(109, 109, 109, 1);
+    height: auto;
+    z-index: 2;
+    flex-grow: 1;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 24px;
+    margin-bottom: 0;
+}
+
+.account-line4 {
+    width: 84px;
+    height: 0px;
+    z-index: 3;
+    position: relative;
+}
+
+.account-frame244 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text08 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+
+.account-frame38 {
+    width: 1232px;
+    display: flex;
+    padding: 32px 24px;
+    position: relative;
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05000000074505806);
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 16px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.account-frame249 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 32px;
+    justify-content: space-between;
+}
+
+.account-frame246 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text10 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    opacity: 0.75;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+
+.account-text12 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.account-button {
+    height: 52px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-stylelayer {
+    height: 52px;
+    display: flex;
+    padding: 8px 16px;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(38, 92, 98, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.account-edit {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    margin-right: 4px;
+}
+
+.account-text14 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-frame255 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 32px;
+}
+
+.account-frame2461 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text16 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    opacity: 0.75;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+
+.account-text18 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.account-frame2561 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 32px;
+}
+
+.account-frame2462 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text20 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    opacity: 0.75;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+
+.account-text22 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.account-frame257 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 32px;
+}
+
+.account-frame2463 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text24 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    opacity: 0.75;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+
+.account-text26 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.account-frame258 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+}
+
+.account-frame2464 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text28 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    opacity: 0.75;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+
+.account-text30 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.account-button1 {
+    top: 411px;
+    left: 1130px;
+    width: 180px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-stylelayer1 {
+    height: 48px;
+    display: flex;
+    padding: 8px 16px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(38, 92, 98, 1);
+}
+
+.account-upload {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    margin-right: 4px;
+}
+
+.account-text32 {
+    color: rgba(209, 250, 229, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-header-default {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    padding: 21px 104px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05000000074505806);
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.account-frame22 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+}
+
+.account-frame20 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    margin-right: 32px;
+}
+
+.account-explore {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 4px;
+}
+
+.account-text34 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-frame21 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+}
+
+.account-materialsymbolssearchrounded {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 4px;
+}
+
+.account-text36 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-logo {
+    width: 110.35294342041016px;
+    height: 36px;
+    display: flex;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+}
+
+.account-group {
+    top: 2.999976396560669px;
+    left: 23.000078201293945px;
+    width: 29px;
+    height: 27px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+.account-temporary-logo {
+    top: 0px;
+    left: 0px;
+    width: 29px;
+    height: 27px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 7.129032135009766px;
+}
+
+.account-l {
+    top: 4.52419376373291px;
+    left: 4.249464511871338px;
+    width: 17px;
+    height: 25px;
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.account-g {
+    top: 3.838843584060669px;
+    left: 54.016666412353516px;
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.account-o {
+    top: 3.838843584060669px;
+    left: 82.25806427001953px;
+    width: 26px;
+    height: 25px;
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.account-frame24 {
+    display: flex;
+    z-index: 2;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+}
+
+.account-frame241 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+}
+
+.account-frame28 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    margin-right: 32px;
+}
+
+.account-frame30 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    margin-right: 16px;
+}
+
+.account-heart {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 4px;
+}
+
+.account-text38 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-text40 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-frame29 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+}
+
+.account-ellipse11 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    border-color: transparent;
+    margin-right: 4px;
+}
+
+.account-text41 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    z-index: 1;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 4px;
+    margin-bottom: 0;
+}
+
+.account-ellipse4 {
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+    position: relative;
+    border-color: transparent;
+    margin-right: 4px;
+}
+
+.account-arrow-down {
+    width: 14px;
+    height: 14px;
+    z-index: 3;
+    position: relative;
+}
+
+.account-rectangle5 {
+    width: 139px;
+    height: 5px;
+    opacity: 0.00;
+    z-index: 3;
+    position: relative;
+    border-color: transparent;
+}
+
+.account-footer {
+    top: 1520px;
+    left: 0px;
+    width: 1440px;
+    height: 645px;
+    display: flex;
+    position: absolute;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.019999999552965164);
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.account-frame2608782 {
+    height: 422px;
+    display: flex;
+    padding: 32px 104px 64px 104px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgba(209, 250, 229, 1);
+}
+
+.account-frame2608747 {
+    width: 1232px;
+    display: flex;
+    padding: 0 24px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05000000074505806);
+    align-items: flex-end;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 20px;
+    margin-bottom: 64px;
+    justify-content: space-between;
+    background-color: rgba(242, 196, 154, 1);
+}
+
+.account-frame2608743 {
+    height: 318px;
+    display: flex;
+    padding: 24px 0;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.account-text43 {
+    color: rgba(17, 34, 17, 1);
+    width: 364px;
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+}
+
+.account-frame2608755 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-frame26087431 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.account-text45 {
+    color: rgba(17, 34, 17, 1);
+    height: auto;
+    opacity: 0.80;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+
+.account-text47 {
+    color: rgba(17, 34, 17, 1);
+    width: 747px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-frame2608741 {
+    width: 593px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+}
+
+.account-textfield {
+    width: 354px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 16px;
+    border-radius: 4px 4px 0 0;
+    flex-direction: column;
+}
+
+.account-textfield1 {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.account-statelayer {
+    display: flex;
+    padding: 8px 0 8px 16px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.account-content {
+    width: 338px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account-labeltext {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.account-text49 {
+    color: rgba(28, 27, 31, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-button2 {
+    height: 56px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 16px;
+    flex-direction: column;
+}
+
+.account-stylelayer2 {
+    height: 56px;
+    display: flex;
+    padding: 8px 16px;
+    position: relative;
+    flex-grow: 1;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(38, 92, 98, 1);
+}
+
+.account-text51 {
+    color: rgba(209, 250, 229, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-button3 {
+    height: 56px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-emojionev1openmailboxwithloweredflag {
+    width: 400px;
+    height: 291px;
+    position: relative;
+}
+
+.account-frame2608748 {
+    width: 1232px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+}
+
+.account-frame2608750 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 140px;
+    flex-direction: column;
+}
+
+.account-logo1 {
+    width: 120px;
+    height: 39.14712142944336px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 24px;
+}
+
+.account-group1 {
+    top: 2.999976396560669px;
+    left: 23.000078201293945px;
+    width: 29px;
+    height: 27px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+.account-temporary-logo1 {
+    top: 0px;
+    left: 0px;
+    width: 29px;
+    height: 27px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 7.129032135009766px;
+}
+
+.account-l1 {
+    top: 4.52419376373291px;
+    left: 4.249464511871338px;
+    width: 17px;
+    height: 25px;
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.account-g1 {
+    top: 3.838843584060669px;
+    left: 54.016666412353516px;
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.account-o1 {
+    top: 3.838843584060669px;
+    left: 82.25806427001953px;
+    width: 26px;
+    height: 25px;
+    position: absolute;
+    box-sizing: content-box;
+}
+
+.account-frame2608749 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+}
+
+.account-akariconsfacebookfill {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 12px;
+}
+
+.account-group2 {
+    top: 72.8529052734375px;
+    left: 1px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+.account-group3 {
+    top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+.account-akariconsyoutubefill {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 12px;
+}
+
+.account-group4 {
+    top: 75.3291015625px;
+    left: -0.0009765625px;
+    width: 20.0026912689209px;
+    height: 13.341608047485352px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+.account-group5 {
+    top: 0px;
+    left: 0px;
+    width: 20.0026912689209px;
+    height: 13.341608047485352px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+.account-frame26087481 {
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: flex-start;
+    border-color: transparent;
+    justify-content: flex-end;
+}
+
+.account-frame2608742 {
+    width: 175.1999969482422px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    flex-direction: column;
+}
+
+.account-text53 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+
+.account-frame2608776 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text55 {
+    color: rgba(17, 34, 17, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text57 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text59 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text61 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-frame2608744 {
+    width: 175.1999969482422px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    flex-direction: column;
+}
+
+.account-text63 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+
+.account-frame2608777 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text65 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text67 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text69 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text71 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-frame26087471 {
+    width: 175.1999969482422px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    flex-direction: column;
+}
+
+.account-text73 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+
+.account-frame2608778 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text75 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text77 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text79 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text81 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-frame2608745 {
+    width: 175.1999969482422px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 24px;
+    flex-direction: column;
+}
+
+.account-text83 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+
+.account-frame2608779 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text85 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text87 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-frame2608746 {
+    width: 175.1999969482422px;
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text89 {
+    color: rgba(38, 92, 98, 1);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+
+.account-frame2608780 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.account-text91 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+.account-text93 {
+    color: rgba(38, 92, 98, 1);
+    width: 175px;
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.account-copyrightfootnote {
+    display: flex;
+    padding: 22px 476px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    justify-content: center;
+    background-color: rgba(38, 92, 98, 1);
+}
+
+.account-text95 {
+    color: rgba(250, 251, 252, 1);
+    height: auto;
+    opacity: 0.70;
+    align-self: auto;
+    text-align: left;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+}

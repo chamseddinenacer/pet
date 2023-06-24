@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <title>pet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+
+        p,
+        li,
+        ul,
+        pre,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        figure,
+        blockquote,
+        figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button,
+        select {
+            text-transform: none;
+        }
+
+       
+
+        button::-moz-focus-inner,
+        [type="button"]::-moz-focus-inner,
+        [type="reset"]::-moz-focus-inner,
+        [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+
+        button:-moz-focus,
+        [type="button"]:-moz-focus,
+        [type="reset"]:-moz-focus,
+        [type="submit"]:-moz-focus {
+            outline: 1px dotted ButtonText;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-gray-white);
+
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div>
+        
+
+        <div class="lost-pets-container">
+            <div class="lost-pets-lost-pets">
+                <img src="./assets/public/playground_assets/rectangle34757-trfd-400h.png" alt="Rectangle34757"
+                    class="lost-pets-rectangle3" />
+                <button class="lost-pets-button">
+                    <div class="lost-pets-stylelayer">
+                        <img src="./assets/public/playground_assets/uploadi475-zqu.svg" alt="UploadI475" class="lost-pets-upload" />
+                        <span class="lost-pets-text MontserratMedium14px">
+                            <span>Upload new cover</span>
+                        </span>
+                    </div>
+                </button>
+                <div class="lost-pets-header-default">
+                    <div class="lost-pets-frame22">
+                        <div class="lost-pets-frame20">
+                            <img src="./assets/public/playground_assets/explorei475-57lo.svg" alt="ExploreI475"
+                                class="lost-pets-explore" />
+                            <span class="lost-pets-text002 MontserratSemibold14px">
+                                <span>I’ve Lost Pets</span>
+                            </span>
+                        </div>
+                        <div class="lost-pets-frame21">
+                            <img src="./assets/public/playground_assets/materialsymbolssearchroundedi475-3v3o.svg"
+                                alt="materialsymbolssearchroundedI475" class="lost-pets-materialsymbolssearchrounded" />
+                            <span class="lost-pets-text004 MontserratSemibold14px">
+                                <span>I’ve Found Pets</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="lost-pets-logo">
+                        <div class="lost-pets-group">
+                            <img src="./assets/public/playground_assets/temporarylogoi475-yfxp-200h.png" alt="TemporaryLogoI475"
+                                class="lost-pets-temporary-logo" />
+                        </div>
+                        <img src="./assets/public/playground_assets/li475-d0bq.svg" alt="LI475" class="lost-pets-l" />
+                        <img src="./assets/public/playground_assets/gi475-k6v8.svg" alt="GI475" class="lost-pets-g" />
+                        <img src="./assets/public/playground_assets/oi475-5167.svg" alt="OI475" class="lost-pets-o" />
+                    </div>
+                    <div class="lost-pets-frame24">
+                        <div>
+                            <div class="lost-pets-frame28">
+                                <div class="lost-pets-frame30">
+                                    <img src="./assets/public/playground_assets/hearti475-qn4g.svg" alt="heartI475"
+                                        class="lost-pets-heart" />
+                                    <span class="lost-pets-text006 MontserratSemibold14px">
+                                        <span>Favourites</span>
+                                    </span>
+                                </div>
+                                <span class="lost-pets-text008 MontserratSemibold14px">
+                                    |
+                                </span>
+                            </div>
+                            <div class="lost-pets-frame29">
+                                <img src="./assets/public/playground_assets/ellipse1i475-eyde-200h.png" alt="Ellipse1I475"
+                                    class="lost-pets-ellipse1" />
+                                <span class="lost-pets-text009 MontserratSemibold14px">
+                                    <span>Michael</span>
+                                </span>
+                                <img src="./assets/public/playground_assets/ellipse4i475-ciyh-200h.png" alt="Ellipse4I475"
+                                    class="lost-pets-ellipse4" />
+                                <img src="./assets/public/playground_assets/arrowdowni475-h5uz9.svg" alt="ArrowDownI475"
+                                    class="lost-pets-arrow-down" />
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/public/playground_assets/rectangle5i475-pjcg-200h.png" alt="Rectangle5I475"
+                        class="lost-pets-rectangle5" />
+                </div>
+                <div class="lost-pets-footer">
+                    <div class="lost-pets-frame2608782">
+                        <div class="lost-pets-frame2608747">
+                            <div class="lost-pets-frame2608743">
+                                <span class="lost-pets-text011 TradeGothicBoldH1">
+                                    <span>Subscribe Newsletter</span>
+                                </span>
+                                <div class="lost-pets-frame2608755">
+                                    <div class="lost-pets-frame26087431">
+                                        <span class="lost-pets-text013 MontserratRegularH5">
+                                            <span>Join Our Community</span>
+                                        </span>
+                                        <span class="lost-pets-text015 MontserratRegularBody">
+                                            <span>
+                                                Be the First to Know About New Adoptable Pets and
+                                                Receive Our Monthly Newsletter. Subscribe Now!
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="lost-pets-frame2608741">
+                                        <div class="lost-pets-textfield">
+                                            <div class="lost-pets-textfield01">
+                                                <div class="lost-pets-statelayer">
+                                                    <div class="lost-pets-content">
+                                                        <div class="lost-pets-labeltext">
+                                                            <span class="lost-pets-text017 MontserratRegularBody">
+                                                                <span>Your email address</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="lost-pets-button1">
+                                            <div class="lost-pets-stylelayer1">
+                                                <span class="lost-pets-text019 MontserratMedium14px">
+                                                    <span>Subscribe</span>
+                                                </span>
+                                            </div>
+                                        </button>
+                                        <button class="lost-pets-button2"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/public/playground_assets/emojionev1openmailboxwithloweredflagi475-7ubr.svg"
+                                alt="emojionev1openmailboxwithloweredflagI475"
+                                class="lost-pets-emojionev1openmailboxwithloweredflag" />
+                        </div>
+                        <div class="lost-pets-frame2608748">
+                            <div class="lost-pets-frame2608750">
+                                <div class="lost-pets-logo1">
+                                    <div class="lost-pets-group1">
+                                        <img src="./assets/public/playground_assets/temporarylogoi475-3i5-200h.png"
+                                            alt="TemporaryLogoI475" class="lost-pets-temporary-logo1" />
+                                    </div>
+                                    <img src="./assets/public/playground_assets/li475-299h.svg" alt="LI475" class="lost-pets-l1" />
+                                    <img src="./assets/public/playground_assets/gi475-h3ej.svg" alt="GI475" class="lost-pets-g1" />
+                                    <img src="./assets/public/playground_assets/oi475-k3zo.svg" alt="OI475" class="lost-pets-o1" />
+                                </div>
+                                <div class="lost-pets-frame2608749">
+                                    <div class="lost-pets-akariconsfacebookfill">
+                                        <div class="lost-pets-group2">
+                                            <div class="lost-pets-group3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="lost-pets-akariconsyoutubefill">
+                                        <div class="lost-pets-group4">
+                                            <div class="lost-pets-group5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lost-pets-frame26087481">
+                                <div class="lost-pets-frame2608742">
+                                    <span class="lost-pets-text021 TradeGothicBoldH6">
+                                        <span>Our Destinations</span>
+                                    </span>
+                                    <div class="lost-pets-frame2608776">
+                                        <span class="lost-pets-text023 MontserratRegularSmallText">
+                                            <span>Canada</span>
+                                        </span>
+                                        <span class="lost-pets-text025 MontserratRegularSmallText">
+                                            <span>Alaksa</span>
+                                        </span>
+                                        <span class="lost-pets-text027 MontserratRegularSmallText">
+                                            <span>France</span>
+                                        </span>
+                                        <span class="lost-pets-text029 MontserratMedium14px">
+                                            <span>Iceland</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="lost-pets-frame2608744">
+                                    <span class="lost-pets-text031 TradeGothicBoldH6">
+                                        <span>Our Activities</span>
+                                    </span>
+                                    <div class="lost-pets-frame2608777">
+                                        <span class="lost-pets-text033 MontserratRegularSmallText">
+                                            <span>Northern Lights</span>
+                                        </span>
+                                        <span class="lost-pets-text035 MontserratRegularSmallText">
+                                            <span>Cruising &amp; sailing</span>
+                                        </span>
+                                        <span class="lost-pets-text037 MontserratRegularSmallText">
+                                            <span>Multi-activities</span>
+                                        </span>
+                                        <span class="lost-pets-text039 MontserratRegularSmallText">
+                                            <span>Kayaing</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="lost-pets-frame26087471">
+                                    <span class="lost-pets-text041 TradeGothicBoldH6">
+                                        <span>Travel Blogs</span>
+                                    </span>
+                                    <div class="lost-pets-frame2608778">
+                                        <span class="lost-pets-text043 MontserratRegularSmallText">
+                                            <span>Bali Travel Guide</span>
+                                        </span>
+                                        <span class="lost-pets-text045 MontserratRegularSmallText">
+                                            <span>Sri Lanks Travel Guide</span>
+                                        </span>
+                                        <span class="lost-pets-text047 MontserratRegularSmallText">
+                                            <span>Peru Travel Guide</span>
+                                        </span>
+                                        <span class="lost-pets-text049 MontserratRegularSmallText">
+                                            <span>Bali Travel Guide</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="lost-pets-frame2608745">
+                                    <span class="lost-pets-text051 TradeGothicBoldH6">
+                                        <span>About Us</span>
+                                    </span>
+                                    <div class="lost-pets-frame2608779">
+                                        <span class="lost-pets-text053 MontserratRegularSmallText">
+                                            <span>Our Story</span>
+                                        </span>
+                                        <span class="lost-pets-text055 MontserratRegularSmallText">
+                                            <span>Work with us</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="lost-pets-frame2608746">
+                                    <span class="lost-pets-text057 TradeGothicBoldH6">
+                                        <span>Contact Us</span>
+                                    </span>
+                                    <div class="lost-pets-frame2608780">
+                                        <span class="lost-pets-text059 MontserratRegularSmallText">
+                                            <span>Our Story</span>
+                                        </span>
+                                        <span class="lost-pets-text061 MontserratRegularSmallText">
+                                            <span>Work with us</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lost-pets-copyrightfootnote">
+                        <span class="lost-pets-text063 MontserratRegularSmallerText">
+                            <span>
+                                Copyright © 2023 All Rights Reserved. In association with
+                                IamThehackerman.com
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="lost-pets-group12">
+                    <div class="lost-pets-frame256">
+                        <div class="lost-pets-frame245">
+                            <div class="lost-pets-frame240">
+                                <div class="lost-pets-frame232">
+                                    <img src="./assets/public/playground_assets/ellipse14757-xe4xg-200h.png" alt="Ellipse14757"
+                                        class="lost-pets-ellipse11" />
+                                    <div class="lost-pets-frame231">
+                                        <span class="lost-pets-text065 MontserratSemibold24px">
+                                            <span>John Doe.</span>
+                                        </span>
+                                        <span class="lost-pets-text067 MontserratRegular16px">
+                                            <span>john.doe@gmail.com</span>
+                                        </span>
+                                    </div>
+                                    <div class="lost-pets-frame241">
+                                        <img src="./assets/public/playground_assets/pen4757-gf4a.svg" alt="Pen4757"
+                                            class="lost-pets-pen" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lost-pets-frame71">
+                                <span class="lost-pets-text069 MontserratSemibold16px">
+                                    <span>I’ve Lost a Pet</span>
+                                </span>
+                                <img src="./assets/public/playground_assets/line14757-y7u.svg" alt="Line14757" class="lost-pets-line1" />
+                                <span class="lost-pets-text071 MontserratSemibold16px">
+                                    <span>I’ve Found a Pet</span>
+                                </span>
+                            </div>
+                        </div>
+                        <img src="./assets/public/playground_assets/line44757-75p.svg" alt="Line44757" class="lost-pets-line4" />
+                    </div>
+                    <div class="lost-pets-frame244">
+                        <span class="lost-pets-text073 TradeGothicBold32px">
+                            <span>Please Fill Out Form Below</span>
+                        </span>
+                        <div class="lost-pets-frame38">
+                            <div class="lost-pets-heading">
+                                <div class="lost-pets-frame246">
+                                    <span class="lost-pets-text075 MontserratRegularH5">
+                                        <span>Pet Information</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lost-pets-form-input">
+                                <div class="lost-pets-frame2461">
+                                    <div class="lost-pets-textfield02">
+                                        <div class="lost-pets-textfield03">
+                                            <div class="lost-pets-statelayer01">
+                                                <div class="lost-pets-content01">
+                                                    <div class="lost-pets-placeholdertext">
+                                                        <span class="lost-pets-text077 Regular16px">
+                                                            <span>Your Pet’s Name</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="lost-pets-labeltext01">
+                                                        <span class="lost-pets-text079 MontserratRegular14px">
+                                                            <span>Pet Name</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon">
+                                                    <img src="./assets/public/playground_assets/microphonei476-r8mi.svg"
+                                                        alt="microphoneI476" class="lost-pets-microphone" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lost-pets-textfield04">
+                                        <div class="lost-pets-textfield05">
+                                            <div class="lost-pets-statelayer02">
+                                                <div class="lost-pets-content02">
+                                                    <input type="text" placeholder="Choose One"
+                                                        class="lost-pets-inputtext" />
+                                                    <div class="lost-pets-labeltext02">
+                                                        <span class="lost-pets-text081 MontserratRegular14px">
+                                                            <span>Species</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon01">
+                                                    <img src="./assets/public/playground_assets/chevrondowni476-dy9j.svg"
+                                                        alt="chevrondownI476" class="lost-pets-chevrondown" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lost-pets-form-input1">
+                                <div class="lost-pets-frame2462">
+                                    <div class="lost-pets-textfield06">
+                                        <div class="lost-pets-textfield07">
+                                            <div class="lost-pets-statelayer03">
+                                                <div class="lost-pets-content03">
+                                                    <div class="lost-pets-placeholdertext1">
+                                                        <span class="lost-pets-text083 Regular16px">
+                                                            <span>Your Pet’s Breed</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="lost-pets-labeltext03">
+                                                        <span class="lost-pets-text085 MontserratRegular14px">
+                                                            <span>Breed</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon02">
+                                                    <img src="./assets/public/playground_assets/microphonei476-snn8.svg"
+                                                        alt="microphoneI476" class="lost-pets-microphone1" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lost-pets-textfield08">
+                                        <div class="lost-pets-textfield09">
+                                            <div class="lost-pets-statelayer04">
+                                                <div class="lost-pets-content04">
+                                                    <input type="text" placeholder="Choose One"
+                                                        class="lost-pets-inputtext1" />
+                                                    <div class="lost-pets-labeltext04">
+                                                        <span class="lost-pets-text087 MontserratRegular14px">
+                                                            <span>Colour</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon03">
+                                                    <img src="./assets/public/playground_assets/chevrondowni476-20im.svg"
+                                                        alt="chevrondownI476" class="lost-pets-chevrondown1" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lost-pets-form-input2">
+                                <div class="lost-pets-frame2463">
+                                    <div class="lost-pets-textfield10">
+                                        <div class="lost-pets-textfield11">
+                                            <div class="lost-pets-statelayer05">
+                                                <div class="lost-pets-content05">
+                                                    <div class="lost-pets-placeholdertext2">
+                                                        <span class="lost-pets-text089 Regular16px">
+                                                            <span>Your Pet’s Size</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="lost-pets-labeltext05">
+                                                        <span class="lost-pets-text091 MontserratRegular14px">
+                                                            <span>Size</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon04">
+                                                    <img src="./assets/public/playground_assets/microphonei476-nys.svg"
+                                                        alt="microphoneI476" class="lost-pets-microphone2" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lost-pets-textfield12">
+                                        <div class="lost-pets-textfield13">
+                                            <div class="lost-pets-statelayer06">
+                                                <div class="lost-pets-content06">
+                                                    <input type="text" placeholder="Choose One"
+                                                        class="lost-pets-inputtext2" />
+                                                    <div class="lost-pets-labeltext06">
+                                                        <span class="lost-pets-text093 MontserratRegular14px">
+                                                            <span>Gender</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon05">
+                                                    <img src="./assets/public/playground_assets/chevrondowni476-j7p6.svg"
+                                                        alt="chevrondownI476" class="lost-pets-chevrondown2" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lost-pets-form-input3">
+                                <div class="lost-pets-frame2464">
+                                    <div class="lost-pets-textfield14">
+                                        <div class="lost-pets-textfield15">
+                                            <div class="lost-pets-statelayer07">
+                                                <div class="lost-pets-content07">
+                                                    <div class="lost-pets-placeholdertext3">
+                                                        <span class="lost-pets-text095 Regular16px">
+                                                            <span>Your Pet’s Age</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="lost-pets-labeltext07">
+                                                        <span class="lost-pets-text097 MontserratRegular14px">
+                                                            <span>Age</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon06">
+                                                    <img src="./assets/public/playground_assets/microphonei476-tr5n.svg"
+                                                        alt="microphoneI476" class="lost-pets-microphone3" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lost-pets-textfield16">
+                                        <div class="lost-pets-textfield17">
+                                            <div class="lost-pets-statelayer08">
+                                                <div class="lost-pets-content08">
+                                                    <input type="text" placeholder="Choose One"
+                                                        class="lost-pets-inputtext3" />
+                                                    <div class="lost-pets-labeltext08">
+                                                        <span class="lost-pets-text099 MontserratRegular14px">
+                                                            <span>Distinct Markings</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon07">
+                                                    <img src="./assets/public/playground_assets/microphonei476-6w8b.svg"
+                                                        alt="microphoneI476" class="lost-pets-microphone4" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lost-pets-form-input4">
+                                <div class="lost-pets-frame2465">
+                                    <div class="lost-pets-textfield18">
+                                        <div class="lost-pets-textfield19">
+                                            <div class="lost-pets-statelayer09">
+                                                <div class="lost-pets-content09">
+                                                    <div class="lost-pets-placeholdertext4">
+                                                        <span class="lost-pets-text101 Regular16px">
+                                                            <span>Tell us about your pet</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="lost-pets-labeltext09">
+                                                        <span class="lost-pets-text103 MontserratRegular14px">
+                                                            <span>Description</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon08">
+                                                    <img src="./assets/public/playground_assets/microphonei476-mr9.svg"
+                                                        alt="microphoneI476" class="lost-pets-microphone5" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lost-pets-image">
+                                <div class="lost-pets-frame2466">
+                                    <span class="lost-pets-text105 MontserratRegularH5">
+                                        <span>Image</span>
+                                    </span>
+                                    <div class="lost-pets-frame2608790">
+                                        <img src="./assets/public/playground_assets/rectangle445033-wt5-200h.png" alt="Rectangle445033"
+                                            class="lost-pets-rectangle44" />
+                                        <img src="./assets/public/playground_assets/paperclip5033-0bva.svg" alt="paperclip5033"
+                                            class="lost-pets-paperclip" />
+                                    </div>
+                                    <span class="lost-pets-text107 MontserratRegularSmallerText">
+                                        <span>Max File Number 5 Mb</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lost-pets-heading1">
+                                <div class="lost-pets-frame2467">
+                                    <span class="lost-pets-text109 MontserratRegularH5">
+                                        <span>Pet Information</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="lost-pets-form-input5">
+                                <div class="lost-pets-frame2468">
+                                    <div class="lost-pets-textfield20">
+                                        <div class="lost-pets-textfield21">
+                                            <div class="lost-pets-statelayer10">
+                                                <div class="lost-pets-content10">
+                                                    <div class="lost-pets-placeholdertext5">
+                                                        <span class="lost-pets-text111 Regular16px">
+                                                            <span>Select Date</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="lost-pets-labeltext10">
+                                                        <span class="lost-pets-text113 MontserratRegular14px">
+                                                            <span>Date Lost</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon09">
+                                                    <img src="./assets/public/playground_assets/calendari476-d5a.svg" alt="calendarI476"
+                                                        class="lost-pets-calendar" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lost-pets-textfield22">
+                                        <div class="lost-pets-textfield23">
+                                            <div class="lost-pets-statelayer11">
+                                                <div class="lost-pets-content11">
+                                                    <input type="text" placeholder="Type an Address"
+                                                        class="lost-pets-inputtext4" />
+                                                    <div class="lost-pets-labeltext11">
+                                                        <span class="lost-pets-text115 MontserratRegular14px">
+                                                            <span>Last Known Location</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="lost-pets-trailingicon10">
+                                                    <img src="./assets/public/playground_assets/locationi476-df6.svg" alt="LocationI476"
+                                                        class="lost-pets-location" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="lost-pets-button3">
+                                <div class="lost-pets-stylelayer2">
+                                    <span class="lost-pets-text117 MontserratMedium14px">
+                                        <span>Submit</span>
+                                    </span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+ 
+<form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate enctype="multipart/form-data">
+
+
+
+
+    <input type="text" placeholder="Pet Name" class="account-edit-profile-inputtext" autocomplete="name" name="name"
+        [(ngModel)]="form.name" required minlength="3" maxlength="20" #name="ngModel" />
+
+<input type="datetime-local" placeholder="Date Lost" class="account-edit-profile-inputtext" autocomplete="datelost"
+    name="datelost" [(ngModel)]="form.datelost" required minlength="3" maxlength="20" #datelost="ngModel" />
+
+
+        <input type="file" (change)="onFileSelected($event)" multiple>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+
+ 
